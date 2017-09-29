@@ -1,0 +1,25 @@
+<view class="container">
+
+	<template name="ListBlock">
+		<view class="list-block">
+			<block a:for="{{items}}">
+				<navigator class="item-content">
+					<view class="item-media">
+						<image class="icon" src="{{item.icon}}"></image>
+					</view>
+					<view class="item-inner item-link">
+						<view class="item-row">
+
+							<view class="item-title">{{item.title}}</view>
+							<text class="{{item.aftertype}}">{{item.after}}</text>
+						</view>
+					</view>
+				</navigator>
+			</block>
+		</view>
+	</template>
+	
+	<view class="content-block-title">content-block</view>
+
+	<template is="ListBlock" data={{...ListBlock}} />
+</view>
