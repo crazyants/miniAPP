@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="card card-flush">
+    <view class="card-content-inner text-center">
+      <icon class="my-2" type="success" size="64" color="#259b24" />
+      <view class="title">操作成功</view>
+      <view class="caption my-3">所提交内容已操作成功</view>
+    </view>
+  </view>
+  <view class="content-block">
+    <button type="primary" size="defaultSize"> 完成操作 </button>
+  </view>
+  <view class="content-block">
+		<view class="split">广告</view>
+  </view>
+</view>

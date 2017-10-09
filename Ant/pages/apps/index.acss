@@ -1,0 +1,17 @@
+.applist {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.applist .item {
+    width: 96px;
+    text-align: center;
+    margin: 16px 0;
+}
+.applist .item .app-icon {
+    border-radius: 8%;
+    width: 80px;
+}
+.applist .item .app-name {
+    display: block;
+}

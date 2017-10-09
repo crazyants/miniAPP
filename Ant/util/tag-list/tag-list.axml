@@ -1,0 +1,5 @@
+<template name="tag">
+  <view class="tag {{props.selected ? 'active' : ''}}" onTap="{{props.onChange}}" data-selected="{{props.selected}}">
+    <text>{{props.label}}<text>
+  </view>  
+</template>

@@ -1,0 +1,85 @@
+<view class="container">
+	<view class="content-block">
+		<view class="card msg">
+
+			<view class="item-content media card-header-sm">
+				<view class="item-media">
+					<image class="icon rounded-circle" src="http://lorempixel.com/160/160/people/1" mode="widthFix" />
+				</view>
+				<view class="item-inner item-link">
+					<view class="item-title">Yellow Submarine</view>
+				</view>
+      </view>
+      
+      <view class="card-content">
+        <view class="card-content-inner">
+          <view class="hd">
+            <view class="title">title</view>
+            <view class="caption">9月28日</view>
+          </view>
+          <view class="bd">
+            <view>这里显示自定义文本</view>
+            <view>
+              <view><label>付款方式：</label><text class="desc">这里显示内容</text></view>
+              <view><label>交易对象：</label><text class="desc">这里显示内容</text></view>
+              <view><label>商品说明：</label><text class="desc">这里显示内容</text></view>
+            </view>
+          </view>
+          <view class="ft">这里显示详细的描述</view>
+        </view>
+      </view>
+
+      <view class="card-footer">
+        <navigator class="link" url="">查看详情</navigator>
+      </view>
+    </view>
+    
+    <view class="card msg">
+      <view class="card-content">
+        <view class="card-content-inner">
+          <view class="hd">
+            <view class="title">好奇耍裤玩嘻哈</view>
+            <view class="caption">9月28日</view>
+          </view>
+          <view class="bd">
+            <image src="https://img10.360buyimg.com/mobilecms/s580x300_jfs/t9559/42/206841378/25983/c35b8fd8/59c8d4b1Nd8b2b7fd.jpg" mode="widthFix" />
+          </view>
+          <view class="ft">
+            <view class="desc">这里显示详细的描述</view>
+          </view>
+        </view>
+      </view>
+
+      <view class="card-footer">
+        <navigator class="" url="">查看详情</navigator>
+        <navigator class="link" url="">立刻领取</navigator>
+      </view>
+    </view>
+    
+    <view class="card msg">
+      <view class="card-content">
+        <view class="card-content-inner">
+          <view class="hd">
+            <view class="title">付款成功</view>
+            <view class="caption">9月28日</view>
+          </view>
+          <view class="bd">
+            <view class="headline text-center">11.20<text class="caption">元</text></view>
+            <view class="list">
+              <view><label>付款方式：</label><text class="desc">这里显示内容</text></view>
+              <view><label>交易对象：</label><text class="desc">这里显示内容</text></view>
+              <view><label>商品说明：</label><text class="desc">这里显示内容</text></view>
+            </view>
+          </view>
+          <view class="ft">
+            <view class="desc">这里显示详细的描述</view>
+          </view>
+        </view>
+      </view>
+
+      <view class="card-footer">
+        <navigator class="link" url="">查看详情</navigator>
+      </view>
+		</view>
+	</view>
+</view>

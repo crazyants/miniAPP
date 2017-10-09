@@ -1,0 +1,6 @@
+.swiper image {
+    height: 56vw;
+}
+.swiper-sm image {
+    height: 25vw;
+}

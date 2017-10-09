@@ -1,0 +1,23 @@
+<view class="container">
+
+  <view class="page-title">Typography</view>
+
+  <view class="content-block">
+  
+    <view class="display-1">display-1</view>
+    <view class="display-2">display-2</view>
+    <view class="display-3">display-3</view>
+    <view class="display-4">display-4</view>
+
+    <view class="headline">headline</view>
+    <view class="title">title</view>
+    <view class="caption">caption</view>
+
+    <view><text class="small">small</text></view>
+    <view><text class="del">del</text></view>
+    <view><text class="strong">strong</text></view>
+    <view><text class="mark">mark</text></view>
+
+  </view>
+
+</view>

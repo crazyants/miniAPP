@@ -1,0 +1,23 @@
+<view class="container">
+
+  <view class="page-title">Badge</view>
+
+  <view class="content-block-title">Example</view>
+  
+  <view class="content-block">
+    <view class="display-3">heading <text class="badge">new</text></view>
+    <view class="headline">Example heading <text class="badge">new</text></view>
+    <view class="title">Example heading <text class="badge">new</text></view>
+  </view>
+
+  <view class="content-block-title">Colors</view>
+
+  <view class="content-block">
+    <text class="badge bg-primary">new</text>
+    <text class="badge bg-success">new</text>
+    <text class="badge bg-warning">new</text>
+    <text class="badge bg-danger">new</text>
+    <text class="badge bg-white">new</text>
+  </view>
+
+</view>

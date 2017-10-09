@@ -1,0 +1,184 @@
+<view class="container">
+
+	<view class="grid app-list bg-primary py-3">
+		<view class="col-3 app-item">
+			<view class="app-icon">
+				<text class="icon-md icon-top"></text>
+			</view>
+			<view class="app-name"><text>app name</text></view>
+		</view>
+		<view class="col-3 app-item">
+			<view class="app-icon">
+				<text class="icon-md icon-bottom"></text>
+			</view>
+			<view class="app-name"><text>app name</text></view>
+		</view>
+		<view class="col-3 app-item">
+			<view class="app-icon">
+				<text class="icon-md icon-back"></text>
+			</view>
+			<view class="app-name"><text>app name</text></view>
+		</view>
+		<view class="col-3 app-item">
+			<view class="app-icon">
+				<text class="icon-md icon-forward"></text>
+			</view>
+			<view class="app-name"><text>app name</text></view>
+		</view>
+	</view>
+
+	<view class="py-2 card card-flush">
+		<view class="grid app-list separate-item">
+			<view class="col app-item">
+				<view class="app-icon icon-md bg-primary rounded-circle">
+					<text class="icon icon-bottom"></text>
+					<text class="badge">15</text>
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+			<view class="col app-item">
+				<view class="app-icon icon-md bg-danger rounded-circle">
+					<text class="icon icon-top"></text>
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+			<view class="col app-item">
+				<view class="app-icon icon-md bg-warning rounded-circle">
+					<text class="icon icon-forward"></text>
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+			<view class="col app-item">
+				<view class="app-icon icon-md bg-success rounded-circle">
+					<text class="icon icon-back"></text>
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+		</view>
+	</view>
+
+	<view class="py-2 card card-flush">
+		<view class="grid app-list separate-item">
+			<view class="col app-item">
+				<view class="app-icon">
+					<image class="icon-md rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="aspectFill" />
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+			<view class="col app-item">
+				<view class="app-icon">
+					<image class="icon-md rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="aspectFill" />
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+			<view class="col app-item">
+				<view class="app-icon">
+					<image class="icon-md rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="aspectFill" />
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+		</view>
+	</view>
+
+	<view class="grid app-list py-2 card card-flush">
+		<view class="col-3 app-item">
+			<view class="app-icon">
+				<image class="icon-md rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="aspectFill" />
+			</view>
+			<view class="app-name"><text>app name</text></view>
+		</view>
+		<view class="col-3 app-item">
+			<view class="app-icon">
+				<image class="icon-md rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="aspectFill" />
+			</view>
+			<view class="app-name"><text>app name</text></view>
+		</view>
+		<view class="col-3 app-item">
+			<view class="app-icon">
+				<image class="icon-md rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="aspectFill" />
+			</view>
+			<view class="app-name"><text>app name</text></view>
+		</view>
+		<view class="col-3 app-item">
+			<view class="app-icon">
+				<image class="icon-md rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="aspectFill" />
+			</view>
+			<view class="app-name"><text>app name</text></view>
+		</view>
+		<view class="col-3 app-item">
+			<view class="app-icon">
+				<image class="icon rounded" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="aspectFill" />
+			</view>
+			<view class="app-name"><text>app name</text></view>
+		</view>
+		<view class="col-3 app-item">
+			<view class="app-icon">
+				<image class="icon rounded" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="aspectFill" />
+			</view>
+			<view class="app-name"><text>app name</text></view>
+		</view>
+	</view>
+	<view class="card card-flush">
+		<view class="card-header">header</view>
+		<view class="grid app-list py-2">
+			<view class="col-4 app-item">
+				<view class="app-icon">
+					<icon type="warn" size="24" color="" />
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+			<view class="col-4 app-item">
+				<view class="app-icon">
+					<icon type="warn" size="24" color="" />
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+			<view class="col-4 app-item">
+				<view class="app-icon">
+					<icon type="warn" size="24" color="" />
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+			<view class="col-4 app-item">
+				<view class="app-icon">
+					<icon type="warn" size="24" color="" />
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+			<view class="col-4 app-item">
+				<view class="app-icon">
+					<icon type="warn" size="24" color="" />
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+			<view class="col-4 app-item">
+				<view class="app-icon">
+					<icon type="warn" size="24" color="" />
+				</view>
+				<view class="app-name"><text>app name</text></view>
+			</view>
+		</view>
+	</view>
+
+	<view class="card card-flush">
+		<view class="card-header">header</view>
+		<view class="grid app-list separate-item">
+			<view class="col-6 item">
+				<view class="title">APP title</view>
+				<view class="caption">caption</view>
+			</view>
+			<view class="col-6 item">
+				<view class="title">APP title</view>
+				<view class="caption">caption</view>
+			</view>
+			<view class="col-6 item">
+				<view class="title">APP title</view>
+				<view class="caption">caption</view>
+			</view>
+			<view class="col-6 item">
+				<view class="title">APP title</view>
+				<view class="caption">caption</view>
+			</view>
+		</view>
+	</view>
+</view>

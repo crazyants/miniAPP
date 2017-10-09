@@ -1,0 +1,37 @@
+<view class="container">
+  <view class="dropdown-list">
+
+    <view class="dropdown-item">
+      <view class="dropdown-toggle">1</view>
+      <view class="dropdown-content">
+        <view class="dropdown-menu">
+          <view class="dropdown-item">dropdown-item1</view>
+          <view class="dropdown-item">dropdown-item</view>
+          <view class="dropdown-item">dropdown-item</view>
+          <view class="dropdown-item">dropdown-item</view>
+          <view class="dropdown-item">dropdown-item</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="dropdown-item">
+      <view class="dropdown-toggle">2</view>
+
+      <view class="dropdown-content">
+        <view class="content-block">
+          自定义2
+        </view>
+      </view>
+    </view>
+
+    <view class="dropdown-item">
+      <view class="dropdown-toggle">3</view>
+      <view class="dropdown-content">
+        <view class="content-block">
+          自定义3
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<import src="/util/list-components/list-components.axml" />
+
+<view class="container pb-3">
+	<view class="content-block-title">Page</view>
+	<template is="ListBlock" data={{...ListPage}} />
+
+	<view class="content-block-title">Cards and coupons</view>
+	<template is="ListBlock" data={{...ListCAC}} />
+
+	<view class="content-block-title">Media list</view>
+	<template is="ListBlock" data={{...ListMedia}} />
+
+	<view class="content-block-title">Utilities</view>
+	<template is="ListBlock" data={{...ListUtilities}} />
+
+</view>

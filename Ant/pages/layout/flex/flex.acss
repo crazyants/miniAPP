@@ -1,0 +1,18 @@
+.flexbox:not(.flex-layout)>view {
+    min-width: 48px;
+    padding: 48px 0;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .12);
+    border: 1px solid #fff;
+}
+
+.flex-layout {
+    height: 50vh;
+}
+.flex-layout>view {
+    padding: 24px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .12);
+    border: 1px solid #fff;
+}

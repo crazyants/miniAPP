@@ -1,0 +1,10 @@
+<view class="container">
+
+  <view class="page-title">Borders</view>
+
+  <view class="content-block-title">border-radius</view>
+  <view class="content-block">
+    <image class="thumb rounded" src="" mode="" alt="test" />
+    <image class="thumb rounded-circle" src="" mode="" />
+  </view>
+</view>

@@ -1,0 +1,73 @@
+<view class="container bg-white">
+
+	<view class="content-block">
+    <!-- vip-card -->
+		<view class="card vip-card">
+			<view class="card-content" style="background-image:url(http://seopic.699pic.com/photo/50059/6697.jpg_wh1200.jpg);">
+				<view class="media item-content">
+					<view class="item-media">
+						<image class="thumb-sm rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
+					</view>
+					<view class="item-inner">
+						<view class="item-title">title</view>
+						<view class="item-subtitle">subtitle</view>
+					</view>
+					<view class="item-after mr-3">
+						<image class="thumb-sm" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=7bcb659c9745d688a302b5a29cf91a23/2934349b033b5bb571dc8c5133d3d539b600bc12.jpg" mode="aspectFill" />
+					</view>
+				</view>
+			</view>
+    </view>
+
+  </view>
+  
+  <view class="grid text-center separate-item">
+    <view class="col">
+      <view class="caption small">积分</view>
+      <view class="title text-primary">100</view>
+    </view>
+    <view class="col">
+      <view class="caption small">等级</view>
+      <view class="title text-primary">V-5</view>
+    </view>
+    <view class="col">
+      <view class="caption small">优惠券</view>
+      <view class="title text-primary">查看</view>
+    </view>
+  </view>
+
+  <view class="content-block">
+    <button type="primary" size="defaultSize" > 快速买单 </button>
+    <view class="text-center caption mt-2"><text class="small">买单立享9.0折，积分可抵扣现金</text></view>
+  </view>
+
+  <view class="list-block">
+    <view class="item-content">
+      <view class="item-inner item-link">
+        <view class="item-title">会员卡账户</view>
+      </view>
+    </view>
+    <view class="item-content">
+      <view class="item-inner item-link">
+        <view class="item-title">商城</view>
+        <view class="item-after">点击有惊喜</view>
+      </view>
+    </view>
+    <view class="item-content">
+      <view class="item-inner item-link">
+        <view class="item-title">会员卡详情</view>
+      </view>
+    </view>
+    <view class="item-content">
+      <view class="item-inner item-link">
+        <view class="item-title">适用门店</view>
+        <view class="item-after">最近门店1.40公里</view>
+      </view>
+    </view>
+    <view class="item-content">
+      <view class="item-inner item-link">
+        <view class="item-title">公众号</view>
+      </view>
+    </view>
+  </view>
+</view>

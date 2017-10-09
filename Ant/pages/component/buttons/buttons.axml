@@ -1,0 +1,30 @@
+<view class="container">
+
+  <view class="content-block">
+
+    <view class="content-block-title">Type</view>
+
+    <button type="default">default</button>
+    <button type="primary">primary</button>
+    <button type="warn">warn</button>
+
+    <view class="content-block-title">Type Form</view>
+    <form onSubmit="onSubmit" onReset="onReset">
+      <button form-type="submit">submit</button>
+      <button form-type="reset">reset</button>
+    </form>
+
+    <view class="content-block-title">Misc</view>
+
+    <button type="default" plain>plain</button>
+    <button type="default" disabled>disabled</button>
+    <button type="default" loading={{true}}>loading</button>
+    <button type="default" hover-class="red">hover-red</button>
+
+    <view class="content-block-title">Size</view>
+    <button type="default" size="mini">mini</button>
+
+
+  </view>
+
+</view>

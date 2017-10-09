@@ -1,0 +1,5 @@
+.col, .col-1, .col-2, .col-3, .col-4, .col-6, .col-12{
+    text-align: center;
+    background-color: rgba(0, 0, 0, .12);
+    border: 1px solid #fff;
+}

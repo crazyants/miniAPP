@@ -1,0 +1,16 @@
+
+<template name="DropdownSelect">
+  <view id="a-dropdown-nav" class="a-dropdown-nav">
+      <block a:for={{listData}}>
+          <view
+              class="a-dropdown-nav-item {{ active && selectedNav ===index ? 'active' : ''}}"
+              hover-class="a-dropdown-nav-item-hover"
+              onTap="_onNavItemTap"
+              data-index={{index}}
+          >
+              <text>{{item.nav}}</text>
+              <view class="triangle"></view>
+          </view>
+      </block>
+  </view>
+</template>

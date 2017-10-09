@@ -1,0 +1,93 @@
+<view class="container">
+  <view class="news-list">
+
+    <view class="card card-flush news-item news-item-h">
+      <view class="card-header-sm media item-content">
+          <view class="item-media">
+            <image class="icon rounded-circle" src="http://m.tuniucdn.com/fb2/t1/G2/M00/F6/3E/Cii-Tlgiih6IGN-5AAqOP9qFfJ4AAERLQGC9tAACo5X657_w500_h280_c1_t0.jpg" mode="aspectFill" />
+          </view>
+          <view class="item-inner">
+            <view class="item-row">
+              <view class="item-title">显示店铺名称</view>
+              <button type="default" size="mini"> 加入会员 </button>
+            </view>
+          </view>
+      </view>
+      <view class="card-content-inner">
+        <view class="item-title">
+          【香港迪士尼乐园2日自助游】香港迪士尼乐园主题酒店
+        </view>
+        <view class="item-media">
+          <image src="http://m.tuniucdn.com/filebroker/cdn/prd/48/53/485330208e6fdd229940c480073b8af7_w500_h280_c1_t0.jpg" mode="aspectFill" />
+        </view>
+        <view class="caption">
+          本产品由北京途牛国际旅行社有限公司深圳分公司及具有资质的合作旅行社提供相关服务
+        </view>
+        <view class="item-footer">
+          北京途牛国际旅行社 | 8万人浏览
+          <view class="float-right">6件宝贝</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="card card-flush news-item news-item-h">
+      <view class="card-header-sm media item-content">
+          <view class="item-media">
+            <image class="icon rounded-circle" src="http://m.tuniucdn.com/fb2/t1/G2/M00/F6/3E/Cii-Tlgiih6IGN-5AAqOP9qFfJ4AAERLQGC9tAACo5X657_w500_h280_c1_t0.jpg" mode="aspectFill" />
+          </view>
+          <view class="item-inner">
+            <view class="item-row">
+              <view class="item-title">显示店铺名称</view>
+              <button type="default" size="mini"> 加入会员 </button>
+            </view>
+          </view>
+      </view>
+      <view class="card-content-inner">
+        <view class="item-title">
+          【香港迪士尼乐园2日自助游】香港迪士尼乐园主题酒店
+        </view>
+        <view class="caption">
+          本产品由北京途牛国际旅行社有限公司深圳分公司及具有资质的合作旅行社提供相关服务
+        </view>
+        <view class="item-media">
+          <image src="http://m.tuniucdn.com/fb2/t1/G2/M00/D8/BA/Cii-T1iB0Q2ICNZGAEwaNpenxggAAG2uQCVAg8ATBpO913_w500_h280_c1_t0.jpg" mode="aspectFill" />
+        </view>
+        <view class="item-footer">
+          北京途牛国际旅行社 | 8万人浏览
+          <view class="float-right">6件宝贝</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="card card-flush news-item news-item-v">
+      <view class="card-content-inner">
+        <view class="item-title">
+          【大溪地6晚8日自助游】京沪港均可出发
+        </view>
+        <view class="item-media">
+          <image src="http://m.tuniucdn.com/fb2/t1/G2/M00/D8/B9/Cii-TliB0MSIbhkkAEtWq6Pw-ewAAG2twNfmvUAS1bD062_w500_h280_c1_t0.jpg" mode="aspectFill" />
+        </view>
+        <view class="item-footer">
+          北京途牛国际旅行社 | 8万人浏览
+          <view class="float-right">6件宝贝</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="card card-flush news-item news-item-v">
+      <view class="card-content-inner">
+        <view class="item-title">
+          免签美属海岛，香港包机直飞，自选酒店，自选当地游行程！
+        </view>
+        <view class="item-media">
+          <image src="http://m.tuniucdn.com/fb2/t1/G2/M00/F6/3E/Cii-Tlgiih6IGN-5AAqOP9qFfJ4AAERLQGC9tAACo5X657_w500_h280_c1_t0.jpg" mode="aspectFill" />
+        </view>
+        <view class="item-footer">
+          北京途牛国际旅行社 | 8万人浏览
+          <view class="float-right">6件宝贝</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

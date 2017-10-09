@@ -1,0 +1,17 @@
+<import src="/util/list-components/list-components.axml" />
+
+<view class="container pb-3">
+
+	<view class="content-block-title">Layout</view>
+	<template is="ListBlock" data={{...ListLayout}} />
+
+	<view class="content-block-title">Content</view>
+	<template is="ListBlock" data={{...ListContent}} />
+
+	<view class="content-block-title">Components</view>
+	<template is="ListBlock" data={{...ListComponents}} />
+
+	<view class="content-block-title">Utilities</view>
+	<template is="ListBlock" data={{...ListUtilities}} />
+
+</view>

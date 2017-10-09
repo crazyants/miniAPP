@@ -1,0 +1,169 @@
+<view class="container">
+
+	<form onSubmit="formSubmit" onReset="formReset">
+
+		<view class="content-block-title">content-block-title</view>
+
+		<view class="list-block">
+
+			<checkbox-group>
+				<view class="item-content">
+					<label class="item-inner">
+          <checkbox>选中我</checkbox>
+          <view class="item-row">
+            <text class="item-title">title</text>
+            <text class="item-after"></text>
+          </view>
+          </label>
+				</view>
+				<view class="item-content">
+					<label class="item-inner">
+          <checkbox>选中我</checkbox>
+          <view class="item-row">
+            <text class="item-title">title</text>
+            <text class="item-after"></text>
+          </view>
+          </label>
+				</view>
+				<view class="item-content">
+					<label class="item-inner">
+          <checkbox>选中我</checkbox>
+          <view class="item-row">
+            <text class="item-title">title</text>
+            <text class="item-after"></text>
+          </view>
+          </label>
+				</view>
+			</checkbox-group>
+
+		</view>
+
+		<view class="content-block-title">content-block-title</view>
+
+		<view class="list-block">
+			<radio-group>
+
+				<view class="item-content">
+					<label class="item-inner">
+        <radio id="radio1" value="radio1">选中我</radio>
+          <view class="item-row">
+            <text class="item-title">title</text>
+            <text class="item-after"></text>
+          </view>
+          </label>
+				</view>
+				<view class="item-content">
+					<label class="item-inner">
+        <radio id="radio2" value="radio2">选中我</radio>
+          <view class="item-row">
+            <text class="item-title">title</text>
+            <text class="item-after"></text>
+          </view>
+          </label>
+				</view>
+				<view class="item-content">
+					<label class="item-inner">
+        <radio id="radio3" value="radio3">选中我</radio>
+          <view class="item-row">
+            <text class="item-title">title</text>
+            <text class="item-after"></text>
+          </view>
+          </label>
+				</view>
+
+			</radio-group>
+    </view>
+    <view class="caption">底部说明文字底部说明文字</view>
+		<view class="content-block-title">input</view>
+
+		<view class="list-block">
+			<view class="item-content">
+				<view class="item-inner">
+					<label>label</label>
+					<input placeholder="placeholder" />
+					<icon type="success" size="24" color="green" />
+				</view>
+			</view>
+			<view class="item-content">
+				<view class="item-inner">
+					<label>maxlength</label>
+					<input maxlength="10" placeholder="最大输入长度10" />
+					<icon type="info" size="24" color="blue" />
+				</view>
+			</view>
+			<view class="item-content">
+				<view class="item-inner">
+					<label>onInput</label>
+					<input onInput="bindKeyInput" placeholder="输入同步到view中" />
+					<icon type="warn" size="24" color="orange" />
+				</view>
+			</view>
+			<view class="item-content">
+				<view class="item-inner">
+					<label>number</label>
+					<input type="number" placeholder="这是一个数字输入框" />
+					<icon type="waiting" size="24" color="gray" />
+				</view>
+			</view>
+			<view class="item-content">
+				<view class="item-inner">
+					<label>password</label>
+					<input password type="text" placeholder="这是一个密码输入框" />
+					<icon type="cancel" size="24" color="gray" />
+				</view>
+			</view>
+			<view class="item-content">
+				<view class="item-inner">
+					<label>digit</label>
+					<input type="digit" placeholder="带小数点的数字键盘" />
+				</view>
+			</view>
+			<view class="item-content">
+				<view class="item-inner">
+					<label>idcard</label>
+					<input type="idcard" placeholder="身份证输入键盘" />
+				</view>
+			</view>
+			<view class="item-content">
+				<view class="item-inner">
+					<label>switch</label>
+					<switch name="switch" />
+				</view>
+			</view>
+			<view class="item-content">
+				<view class="item-inner">
+					<label>slider</label>
+					<view class="item-title">
+
+						<slider value="60" onChange="sliderChange" step="5" />
+					</view>
+				</view>
+			</view>
+			<view class="item-content">
+				<view class="item-inner">
+					<label>picker</label>
+					<view class="item-title">
+						<picker onChange="bindPickerChange" value="{{index}}" range="{{array}}">
+							<view class="picker">
+								{{array[index]}}
+							</view>
+						</picker>
+					</view>
+				</view>
+			</view>
+			<view class="item-content">
+				<view class="item-inner">
+					<!-- <label>picker</label> -->
+					<view class="item-title">
+						<textarea placeholder="form 中的 textarea" name="textarea"/>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view class="content-block">
+			<button class="mb-3" formType="submit" type="primary">Submit</button>
+			<button formType="reset">Reset</button>
+		</view>
+	</form>
+</view>

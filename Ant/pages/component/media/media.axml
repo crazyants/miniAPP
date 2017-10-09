@@ -1,0 +1,132 @@
+<view class="container">
+  
+  <view class="page-title">Media</view>
+  
+  <view class="content-block-title">Simple media</view>
+
+  <!-- media -->
+  <view class="item-content media">
+    <view class="item-media">
+      <image class="thumb rounded-circle" src="http://lorempixel.com/160/160/people/1" mode="widthFix" />
+    </view>
+    <view class="item-inner item-link">
+      <view class="item-row">
+        <view class="item-title">Yellow Submarine</view>
+        <view class="item-after">$15</view>
+      </view>
+      <view class="item-subtitle">Beatles</view>
+      <view class="item-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. 
+      </view>
+    </view>
+  </view>
+
+  <!-- Simple media -->
+  <view class="list-block">
+
+    <view class="item-content media">
+      <view class="item-media">
+        <image class="thumb-sm rounded-circle" src="http://lorempixel.com/160/160/people/1" mode="widthFix" />
+      </view>
+      <view class="item-inner item-link">
+        <view class="item-row">
+          <view class="item-title">Yellow Submarine</view>
+          <view class="item-after">$15</view>
+        </view>
+        <view class="item-subtitle">Beatles</view>
+        <view class="item-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. 
+        </view>
+      </view>
+    </view>
+    
+    <view class="item-content media">
+      <view class="item-media">
+        <image class="icon rounded-circle" src="http://lorempixel.com/160/160/people/1" mode="asceptFill" />
+      </view>
+      <view class="item-inner">
+        <view class="item-row">
+          <view class="item-title">Yellow Submarine</view>
+          <view class="item-after">$15</view>
+        </view>
+        <view class="item-subtitle">Beatles</view>
+      </view>
+    </view>
+
+    <view class="item-content media">
+      <view class="item-inner">
+        <view class="item-row">
+          <view class="item-title">Yellow Submarine</view>
+          <view class="item-after">$15</view>
+        </view>
+        <view class="item-subtitle">Beatles</view>
+        <view class="item-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. 
+        </view>
+      </view>
+    </view>
+
+    <view class="item-content media">
+      <view class="item-inner">
+        <view class="item-row">
+          <view class="item-title">Yellow Submarine</view>
+          <view class="item-after">$15</view>
+        </view>
+        <view class="item-subtitle">Beatles</view>
+      </view>
+    </view>
+
+  </view>
+
+  
+  <view class="content-block-title">Media list</view>
+  
+  <!-- media list -->
+  <view class="list-block">
+
+    <view class="item-content media">
+      <view class="item-media">
+        <image class="thumb" src="https://img11.360buyimg.com/n7/jfs/t5626/43/5310289231/158712/39583f26/595dd34aN68c42a88.jpg" mode="widthFix" />
+      </view>
+      <view class="item-inner">
+        <view class="item-title mb-2">ThinkPad X270（0YCD）12.5英寸轻薄笔记本电脑（i5-6200U 8G 500G Win10）</view>
+        <view class="item-price title">
+          <text class="text-danger"><text class="small">¥</text> 3699.00</text>
+        </view>
+        <view class="item-text">
+          <text class="small">34人评价 好评率97%</text>
+        </view>
+      </view>
+    </view>
+    <view class="item-content media">
+      <view class="item-media">
+        <image class="thumb" src="https://img11.360buyimg.com/n7/jfs/t2968/143/2485546147/238650/70df281e/57b12a31N8f4f75a3.jpg" mode="widthFix" />
+      </view>
+      <view class="item-inner">
+        <view class="item-title mb-2">Apple MacBook Air 13.3英寸笔记本电脑 银色(Core i5 处理器/8GB内存/128GB SSD闪存 MMGF2CH/A) </view>
+        <view class="item-price title">
+          <text class="text-danger"><text class="small">¥</text> 3699.00</text>
+        </view>
+        <view class="item-text">
+          <text class="small">50人评价 好评率88%</text>
+        </view>
+      </view>
+    </view>
+    <view class="item-content media">
+      <view class="item-media">
+        <image class="thumb" src="https://img12.360buyimg.com/n1/s180x180_jfs/t10204/164/341721929/195078/18f77436/59cc8c5eN86eb2272.jpg" mode="widthFix" />
+      </view>
+      <view class="item-inner">
+        <view class="item-title mb-2">华硕(ASUS) 顽石四代FL5700UP 15.6英寸笔记本电脑(i7-7500U 4G 1T 2G独显 FHD)黑色 </view>
+        <view class="item-price title">
+          <text class="text-danger"><text class="small">¥</text> 3699.00</text>
+        </view>
+        <view class="item-text">
+          <text class="small">159人评价 好评率85%</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>
