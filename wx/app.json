@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/biz/index/index",
     "pages/index/index",
+    "pages/biz/index/index",
     "pages/apps/index",
     "pages/biz/my/my",
     "pages/biz/app-splash/app-splash",
