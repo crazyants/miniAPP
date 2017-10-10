@@ -1,0 +1,4 @@
+/* pages/component/buttons/buttons.wxss */
+.content-block button+button {
+    margin-top: 16px;
+}

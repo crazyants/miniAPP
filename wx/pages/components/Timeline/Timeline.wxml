@@ -1,0 +1,106 @@
+<!--pages/components/Timeline/Timeline.wxml-->
+<view class="container">
+
+  <view class="page-title">Timeline</view>
+
+  <view class="content-block-title">Timeline progress</view>
+    <view class="timeline-progress">
+      <view class="timeline-item">
+        <view class="timeline-item-content">
+          <view class="timeline-item-inner">
+            <view class="item-title">title</view>
+            <view class="item-subtitle">subtitle</view>
+          </view>
+        </view>
+      </view>
+      <view class="timeline-item">
+        <view class="timeline-item-content">
+          <view class="timeline-item-inner">
+            <view class="item-title">title</view>
+            <view class="item-subtitle">subtitle</view>
+          </view>
+        </view>
+      </view>
+      <view class="timeline-item current">
+        <view class="timeline-item-content">
+          <view class="timeline-item-inner">
+            <view class="item-title">title</view>
+            <view class="item-subtitle">subtitle</view>
+          </view>
+        </view>
+      </view>
+      <view class="timeline-item">
+        <view class="timeline-item-content">
+          <view class="timeline-item-inner">
+            <view class="item-title">title</view>
+            <view class="item-subtitle">subtitle</view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  <view class="content-block-title">Simple timeline</view>
+  
+  <view class="card card-flush">
+    <view class="card-content-inner">
+      <view class="timeline">
+        <view class="timeline-item">
+          <view class="timeline-item-content">
+            <view class="timeline-item-inner">
+              Some text goes here
+              <view class="time">2017-09-26 09:15:24</view>
+            </view>
+          </view>
+        </view>
+        <view class="timeline-item">
+          <view class="timeline-item-content">
+            <view class="timeline-item-inner">
+              Some text goes here
+              <view class="time">2017-09-26 09:15:24</view>
+            </view>
+          </view>
+        </view>
+        <view class="timeline-item">
+          <view class="timeline-item-content">
+            <view class="timeline-item-inner">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat ipsam hic porro enim, accusamus perferendis, quas commodi alias quaerat eius nemo deleniti. Odio quasi quos quis iure, aperiam pariatur?
+              <view class="time">2017-09-26 09:15:24</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="content-block-title">Timeline with date</view>
+  <view class="card card-flush">
+    <view class="card-content-inner">
+      <view class="timeline">
+        <view class="timeline-item">
+          <view class="timeline-item-date">0104</view>
+          <view class="timeline-item-content">
+            <view class="timeline-item-inner">
+              Some text goes here
+            </view>
+          </view>
+        </view>
+        <view class="timeline-item">
+          <view class="timeline-item-date">0104</view>
+          <view class="timeline-item-content">
+            <view class="timeline-item-inner">
+              Some text goes here
+            </view>
+          </view>
+        </view>
+        <view class="timeline-item">
+          <view class="timeline-item-date">0104</view>
+          <view class="timeline-item-content">
+            <view class="timeline-item-inner">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat ipsam hic porro enim, accusamus perferendis, quas commodi alias quaerat eius nemo deleniti. Odio quasi quos quis iure, aperiam pariatur?
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

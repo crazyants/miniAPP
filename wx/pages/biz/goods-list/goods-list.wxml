@@ -1,0 +1,50 @@
+<!--pages/biz/goods-list/goods-list.wxml-->
+<view class="container">
+
+	<view class="goods-list">
+		<view class="item">
+			<view class="item-media">
+				<image src="https://img14.360buyimg.com/n7/jfs/t9967/109/190360961/237831/cd2dd740/59c8698eNaec12447.jpg" mode="aspectFill" />
+			</view>
+			<view class="item-inner">
+				<view class="item-title">ESCASE 自拍杆ZPG-03 自拍杆Selfie Stick蓝牙自拍神器 三脚架自拍杆360度旋转可折叠 碳纤灰</view>
+				<view class="badges">
+					<view class="badge bg-primary">test</view>
+					<view class="badge bg-danger">test</view>
+					<view class="badge">test</view>
+					<view class="badge">test</view>
+				</view>
+				<view class="item-price"><text class="text-danger">¥3699.00</text></view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="item-media">
+				<image src="https://img14.360buyimg.com/n6/jfs/t3826/20/40999432/215659/7beb3cc5/5805b437N1a2f813e.jpg" mode="aspectFill" />
+			</view>
+			<view class="item-inner">
+				<view class="item-title">荣耀8青春版 全网通</view>
+				<view class="badges">
+				</view>
+				<view class="item-price"><text class="text-danger">¥3699.00</text></view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="item-media">
+				<image src="https://img14.360buyimg.com/n7/jfs/t2917/208/1912806237/375930/b2793b3a/5795e075N90257ce3.jpg" mode="aspectFill" />
+			</view>
+			<view class="item-inner">
+				<view class="item-title">【生鲜套装】荣耀8青春版 全网通荣耀8青春版 全网通</view>
+				<view class="item-price"><text class="text-danger">¥3699.00</text><text class="desc float-right small">月销9999笔</text></view>
+			</view>
+		</view>
+		<view class="item">
+			<view class="item-media">
+				<image src="https://img12.360buyimg.com/n7/jfs/t10000/350/254357891/94066/c579006a/59c9ca4bNbf66abf3.jpg" mode="aspectFill" />
+			</view>
+			<view class="item-inner">
+				<view class="item-title">【生鲜套装】荣耀8青春版 全网通</view>
+				<view class="item-price"><text class="text-danger">¥3699.00</text></view>
+			</view>
+		</view>
+	</view>
+</view>

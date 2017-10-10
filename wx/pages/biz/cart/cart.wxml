@@ -1,0 +1,153 @@
+<!--pages/biz/cart/cart.wxml-->
+<view class="container width-footer">
+  
+  <view class="floating-button-block">
+    <view class="floating-button">
+      <view class="icon icon-top"></view>
+    </view>
+  </view>
+
+  <view class="footer flexbox pl-3">
+    <view class="item">
+      <checkbox value="全选" checked /> 全选<text class="ml-4">合计：<text class="text-danger">¥123.59</text></text>
+    </view>
+    <button type="primary"> 去结算<text class="small">(5)</text> </button>
+  </view>
+	<view class="cart mb-5">
+		<view class="cart-header">
+			活动商品购满¥49.00，即可领取赠品1件
+		</view>
+		<view class="cart-content">
+			<view class="cart-group">
+				<view class="group-header">
+            <checkbox value="" checked />
+          平台自营
+          <view class="float-right">
+            <text class="text-danger small">优惠券</text>
+          </view>
+				</view>
+				<view class="group-content">
+          <view class="media-group">
+            <view class="media-group-caption"><text class="tag tag-danger">满赠</text>购满49.00元，即可领取赠品<navigator class="float-right text-danger">去凑单 ></navigator></view>
+            <view class="media item-content">
+              <checkbox value="" checked />
+              <view class="item-media">
+                <image class="thumb" src="https://img14.360buyimg.com/n7/jfs/t9967/109/190360961/237831/cd2dd740/59c8698eNaec12447.jpg" mode="aspectFill" />
+              </view>
+              <view class="item-inner">
+                <view class="item-title">南孚(NANFU)LR03AAA聚能环7号碱性干电池12粒挂卡装/儿童玩具/血糖仪/遥控器/挂钟/鼠标键盘电池
+                </view>
+                <view class="item-price"><text class="text-danger">¥3699.00</text></view>
+              </view>
+            </view>
+            <view class="media item-content">
+              <checkbox value="" />
+              <view class="item-media">
+                <image class="thumb" src="https://img12.360buyimg.com/n7/jfs/t3337/224/883223745/140118/75082bc1/5816b211Na45ad187.jpg" mode="aspectFill" />
+              </view>
+              <view class="item-inner">
+                <view class="item-title">南孚(NANFU)LR03AAA聚能环7号碱性干电池12粒挂卡装/儿童玩具/血糖仪/遥控器/挂钟/鼠标键盘电池
+                </view>
+                <view class="item-price"><text class="text-danger">¥3699.00</text></view>
+              </view>
+            </view>
+          </view>
+
+          <view class="media-group">
+            
+            <view class="media-group-caption"><text class="tag">满减</text>购满2件，总价可打八折<navigator class="float-right text-danger">去凑单 ></navigator></view>
+            
+            <view class="media item-content">
+              <checkbox value="" />
+              <view class="item-media">
+                <image class="thumb" src="https://img10.360buyimg.com/cms/jfs/t1177/122/358006641/139808/d42ca175/551b58e4N0b38ae8a.jpg" mode="aspectFill" />
+              </view>
+              <view class="item-inner">
+                <view class="item-title">南孚(NANFU)LR03AAA聚能环7号碱性干电池12粒挂卡装/儿童玩具/血糖仪/遥控器/挂钟/鼠标键盘电池
+                </view>
+                <view class="item-price"><text class="text-danger">¥3699.00</text></view>
+              </view>
+            </view>
+            <view class="media item-content">
+              <checkbox value="" />
+              <view class="item-media">
+                <image class="thumb" src="https://img10.360buyimg.com/cms/jfs/t1177/122/358006641/139808/d42ca175/551b58e4N0b38ae8a.jpg" mode="aspectFill" />
+              </view>
+              <view class="item-inner">
+                <view class="item-title">南孚(NANFU)LR03AAA聚能环7号碱性干电池12粒挂卡装/儿童玩具/血糖仪/遥控器/挂钟/鼠标键盘电池
+                </view>
+                <view class="item-price"><text class="text-danger">¥3699.00</text></view>
+              </view>
+            </view>
+
+          </view>
+
+				</view>
+      </view>
+      <view class="cart-group">
+				<view class="group-header">
+            <checkbox value="" checked />
+					商家店铺名称
+				</view>
+				<view class="group-content">
+          <view class="media-group">
+            <view class="media-group-caption"><text class="tag tag-danger">满赠</text>购满49.00元，即可领取赠品<navigator class="float-right text-danger">去凑单 ></navigator></view>
+            <view class="media item-content">
+              <checkbox value="" checked />
+              <view class="item-media">
+                <image class="thumb" src="https://img14.360buyimg.com/n7/jfs/t9967/109/190360961/237831/cd2dd740/59c8698eNaec12447.jpg" mode="aspectFill" />
+              </view>
+              <view class="item-inner">
+                <view class="item-title">南孚(NANFU)LR03AAA聚能环7号碱性干电池12粒挂卡装/儿童玩具/血糖仪/遥控器/挂钟/鼠标键盘电池
+                </view>
+                <view class="item-price"><text class="text-danger">¥3699.00</text></view>
+              </view>
+            </view>
+            <view class="media item-content">
+              <checkbox value="" />
+              <view class="item-media">
+                <image class="thumb" src="https://img12.360buyimg.com/n7/jfs/t3337/224/883223745/140118/75082bc1/5816b211Na45ad187.jpg" mode="aspectFill" />
+              </view>
+              <view class="item-inner">
+                <view class="item-title">南孚(NANFU)LR03AAA聚能环7号碱性干电池12粒挂卡装/儿童玩具/血糖仪/遥控器/挂钟/鼠标键盘电池
+                </view>
+                <view class="item-price"><text class="text-danger">¥3699.00</text></view>
+              </view>
+            </view>
+          </view>
+
+          <view class="media-group">
+            
+            <view class="media-group-caption"><text class="tag">满减</text>购满2件，总价可打八折<navigator class="float-right text-danger">去凑单 ></navigator></view>
+            
+            <view class="media item-content">
+              <checkbox value="" />
+              <view class="item-media">
+                <image class="thumb" src="https://img10.360buyimg.com/cms/jfs/t1177/122/358006641/139808/d42ca175/551b58e4N0b38ae8a.jpg" mode="aspectFill" />
+              </view>
+              <view class="item-inner">
+                <view class="item-title">南孚(NANFU)LR03AAA聚能环7号碱性干电池12粒挂卡装/儿童玩具/血糖仪/遥控器/挂钟/鼠标键盘电池
+                </view>
+                <view class="item-price"><text class="text-danger">¥3699.00</text></view>
+              </view>
+            </view>
+            <view class="media item-content">
+              <checkbox value="" />
+              <view class="item-media">
+                <image class="thumb" src="https://img10.360buyimg.com/cms/jfs/t1177/122/358006641/139808/d42ca175/551b58e4N0b38ae8a.jpg" mode="aspectFill" />
+              </view>
+              <view class="item-inner">
+                <view class="item-title">南孚(NANFU)LR03AAA聚能环7号碱性干电池12粒挂卡装/儿童玩具/血糖仪/遥控器/挂钟/鼠标键盘电池
+                </view>
+                <view class="item-price"><text class="text-danger">¥3699.00</text></view>
+              </view>
+            </view>
+
+          </view>
+
+				</view>
+			</view>
+		</view>
+
+	</view>
+</view>

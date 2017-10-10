@@ -1,0 +1,39 @@
+<!--pages/biz/pay/pay.wxml-->
+<view class="container">
+  <view class="content-block">
+    <view class="content-block-title">付款给 <text>店铺名称</text> 更换店铺</view>
+    <view class="card">
+      <form onSubmit="formSubmit" onReset="formReset">
+        <view class="card-content">
+          <view class="list-block">
+            <view class="item-content">
+              <view class="item-inner">
+                <label>消费总额 ￥</label>
+                <input placeholder="输入总消费金额" />
+              </view>
+            </view>
+            <view class="item-content">
+              <view class="item-inner">
+                <label>不参与优惠金额 ￥</label>
+                <input placeholder="询问店员后输入" />
+              </view>
+            </view>
+            <view class="item-content">
+              <view class="item-inner item-link">
+                <view>
+                  <view>使用会员卡 <text class="text-danger px-2">减240元</text></view>
+                  <view>使用 满减优惠券券 <text class="text-danger px-2">减60元</text></view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="card-content-inner text-center">
+          <view class="display-3"><text class="small">¥</text>0.00</view>
+          <view class="caption">已优惠¥300.00</view>
+          <button class="mt-3" type="primary"> 确认支付 </button>
+        </view>
+      </form>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+<!--pages/component/tags/tags.wxml-->
+<import src="/util/tag-list/tag-list.axml" />
+
+<view class="container">
+
+  <view class="page-title">Tags</view>
+
+  <view class="content-block-title">tag</view>
+  <view class="content-block">
+    <view class="tag">tag</view>
+  </view>
+
+  <view class="content-block-title">tag list</view>
+  <view class="tags">
+    <block wx:for="{{tags}}">
+        <template is="tag" data="{{props: tags[index]}}"  />
+    </block>
+  </view>
+  <view class="content-block">
+    <text>您选择的是: {{selectedLables}}</text>
+  </view>
+
+</view>

@@ -1,0 +1,74 @@
+{
+  "pages": [
+    "pages/biz/index/index",
+    "pages/index/index",
+    "pages/apps/index",
+    "pages/biz/my/my",
+    "pages/biz/app-splash/app-splash",
+    "pages/biz/app-list/app-list",
+    "pages/biz/result-page/result-page",
+    "pages/biz/coupon/coupon",
+    "pages/biz/vip-card/vip-card",
+    "pages/biz/goods-list/goods-list",
+    "pages/biz/cart/cart",
+    "pages/biz/pay/pay",
+    "pages/biz/service-msg/service-msg",
+    "pages/biz/wx-media-list/wx-media-list",
+    "pages/biz/news-list/news-list",
+    "pages/layout/flex/flex",
+    "pages/layout/grid/grid",
+    "pages/content/typography/typography",
+    "pages/content/thumb/thumb",
+    "pages/content/images/images",
+    "pages/content/article/article",
+    "pages/component/swiper/swiper",
+    "pages/component/tabs/tabs",
+    "pages/component/list-block/list-block",
+    "pages/component/cards/cards",
+    "pages/component/media/media",
+    "pages/component/forms/forms",
+    "pages/component/buttons/buttons",
+    "pages/component/floating-button/floating-button",
+    "pages/component/progress/progress",
+    "pages/component/icons/icons",
+    "pages/component/collapse/collapse",
+    "pages/component/dropdowns/dropdowns",
+    "pages/component/badge/badge",
+    "pages/component/tags/tags",
+    "pages/component/picker-view/picker-view",
+    "pages/component/timeline/timeline",
+    "pages/utilities/borders/borders",
+    "pages/utilities/clearfix/clearfix",
+    "pages/utilities/spacing/spacing",
+    "pages/utilities/colors/colors"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00bbb5",
+    "navigationBarTitleText": "WX Demo",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "基础组件"
+      },
+      {
+        "pagePath": "pages/biz/index/index",
+        "text": "业务组件"
+      },
+      {
+        "pagePath": "pages/apps/index",
+        "text": "apps"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

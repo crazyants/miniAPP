@@ -1,0 +1,22 @@
+<!--pages/content/article/article.wxml-->
+<view class="container">
+
+  <view class="page-title">Article</view>
+
+  <view class="article content-block">
+
+    <view class="h1">Heading H1</view>
+    <view class="h2">Heading H2</view>
+    <view class="h3">Heading H3</view>
+    <view class="h4">Heading H4</view>
+
+    <view class="p">Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.</view>
+  
+    <view class="p">Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.</view>
+  
+    <image mode="widthFix" src="https://img1.360buyimg.com/da/jfs/t9361/362/2081022713/198246/681eba1c/59c36e5aNddca6b34.jpg"></image>
+  
+    <view class="p">Quickly get a project started with any of our examples ranging from using parts of the framework to custom components and layouts.</view>
+  
+  </view>
+</view>

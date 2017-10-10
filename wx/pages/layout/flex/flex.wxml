@@ -1,0 +1,32 @@
+<!--pages/layout/flex/flex.wxml-->
+<view class="container">
+
+  <view class="page-title">List Block</view>
+  
+  <view class="content-block-title">平均分</view>
+  <view class="flexbox">
+    <view class="item">1</view>
+    <view class="item">2</view>
+    <view class="item">3</view>
+  </view>
+
+  <view class="content-block-title">自适应</view>
+
+  <view class="flexbox">
+    <view>left</view>
+    <view class="item">
+      自适应区域，自动填充
+    </view>
+    <view>right</view>
+  </view>
+
+  <view class="content-block-title">纵向自适应</view>
+  
+  <view class="flexbox flex-layout">
+    <view>header</view>
+    <view class="item">
+      自适应区域，纵向自动填充
+    </view>
+    <view>footer</view>
+  </view>
+</view>

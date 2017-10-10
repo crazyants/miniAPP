@@ -1,0 +1,83 @@
+<!--pages/biz/coupon/coupon.wxml-->
+<view class="container">
+	<view class="coupon-wx content-block bg-primary">
+		<view class="card coupon mt-5">
+			<view class="card-header text-center">
+				<view class="coupon-header pb-4">
+					<view class="">
+						<image class="rounded-circle" src="https://g-search1.alicdn.com/img/bao/uploaded/i4//67/02/TB1zbReHVXXXXXyXpXXwu0bFXXX.png_70x70.jpg"></image>
+						<view class="caption">奇趣百货创意</view>
+						<view class="coupon-name">满100减12</view>
+						<view class="my-3">
+							<button type="primary" bindtap="primary">立即使用</button>
+						</view>
+					</view>
+					<view class="small">
+						买单立享9.5折
+					</view>
+					<view class="small">
+						有效期：2017-09-01 至 2017-09-30
+					</view>
+				</view>
+			</view>
+
+			<view class="card-content-inner">
+				<view class="mb-2">
+
+					<image mode="widthFix" src="https://img13.360buyimg.com/da/jfs/t8725/205/1758233439/151444/e137ba7c/59bf3549N0e430163.jpg"></image>
+				</view>
+				<view class="text-muted">
+					这里是其他的文字说明。
+				</view>
+			</view>
+			<view class="card-content">
+				<view class="list-block">
+
+					<view class="item-content">
+						<view class="item-inner">
+							<view class="item-title">再次购买</view>
+							<view class="item-after">优惠多多</view>
+						</view>
+					</view>
+					<view class="item-content">
+						<view class="item-inner">
+							<view class="item-title">赠送给朋友</view>
+						</view>
+					</view>
+					<view class="item-content">
+						<view class="item-inner">
+							<view class="item-title">折扣券详情</view>
+						</view>
+					</view>
+					<view class="item-content">
+						<view class="item-inner">
+							<view class="item-title">适用门店</view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<navigator class="card-footer">
+				进入商家店铺 <text class="icon icon-link"></text>
+			</navigator>
+		</view>
+	</view>
+
+	<view class="coupon-wx content-block bg-primary">
+		<view class="card coupon">
+			<view class="card-header">
+        <view class="item-title text-center py-4">
+          <view class="caption mb-2">奇趣百货创意</view>
+          <view class="coupon-name">满100减12</view>
+        </view>
+			</view>
+
+			<view class="card-content-inner text-center">
+				<view class="py-4">
+          <view class="caption">请出示给核销员使用</view>
+					<image class="thumb-lg my-2" mode="widthFix" src="https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=7bcb659c9745d688a302b5a29cf91a23/2934349b033b5bb571dc8c5133d3d539b600bc12.jpg"></image>
+          <view class="code-number">1234 5678 9012</view>
+        </view>
+			</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,55 @@
+<!--pages/component/list-block/list-block.wxml-->
+<view class="container">
+
+  <view class="page-title">List Block</view>
+
+  <view class="content-block-title">示例</view>
+  <view class="list-block">
+
+    <view class="item-content">
+      <view class="item-media" >
+        <image class="icon" src="http://material.framework7.cn/dist/img/i-f7-material.png"></image>
+      </view>
+      <view class="item-inner">
+          <view class="item-title">With Icon</view>
+      </view>
+    </view>
+
+    <view class="item-content">
+      <view class="item-inner">
+          <view class="item-title">With After</view>
+          <text class="item-after">after</text>
+      </view>
+    </view>
+    
+    <view class="item-content">
+      <view class="item-inner">
+          <view class="item-title">With badge</view>
+          <text class="badge bg-primary">192</text>
+      </view>
+    </view>
+
+    <view class="item-content">
+      <view class="item-inner">
+          <view class="item-title">With switch</view>
+          <text class="after">
+          <switch checked onChange="switchChange"/>
+          </text>
+      </view>
+    </view>
+
+    <view class="item-content">
+      <view class="item-inner">
+          <view class="item-title">Only title</view>
+      </view>
+    </view>
+
+    <navigator class="item-content">
+      <view class="item-inner item-link">
+          <view class="item-title">Link</view>
+      </view>
+    </navigator>
+
+  </view>
+
+</view>

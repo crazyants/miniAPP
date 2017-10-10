@@ -1,0 +1,24 @@
+<!--pages/content/thumb/thumb.wxml-->
+<view class="container">
+
+  <view class="page-title">Thumbnails</view>
+
+  <view class="content-block">
+
+	  <view class="content-block-title">iamge aspectFill</view>
+
+    <image class="thumb-sm" mode="aspectFill" src="https://img10.360buyimg.com/N12/s735x363_jfs/t10474/295/66131578/518802/3ac2d650/59c4e700Nf4662021.png"></image>
+
+    <image class="thumb" mode="aspectFill" src="https://img10.360buyimg.com/N12/s735x363_jfs/t10474/295/66131578/518802/3ac2d650/59c4e700Nf4662021.png"></image>
+
+    <image class="thumb-lg" mode="aspectFill" src="https://img10.360buyimg.com/N12/s735x363_jfs/t10474/295/66131578/518802/3ac2d650/59c4e700Nf4662021.png"></image>
+
+	  <view class="content-block-title">view widthFix</view>
+
+    <view class="thumb-lg">
+        <image mode="widthFix" src="https://img10.360buyimg.com/N12/s735x363_jfs/t10474/295/66131578/518802/3ac2d650/59c4e700Nf4662021.png"></image>
+    </view>
+
+  </view>
+
+</view>

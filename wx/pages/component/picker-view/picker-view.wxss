@@ -1,0 +1,5 @@
+/* pages/component/picker-view/picker-view.wxss */
+picker-view {
+  text-align: center;
+  line-height: 50px;
+}

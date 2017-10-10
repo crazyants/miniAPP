@@ -1,0 +1,167 @@
+<!--pages/component/cards/cards.wxml-->
+<view class="container">
+
+  <view class="content-block-title">Simple Cards</view>
+  <view class="content-block">
+    <view class="card">
+      <view class="card-content">
+        <view class="card-content-inner">
+          This is simple card with plain text. But card could contain its own header, footer, list view, image, and any elements inside.
+        </view>
+      </view>
+    </view>
+
+    <view class="card">
+      <view class="card-header">Card header</view>
+      <view class="card-content">
+        <view class="card-content-inner">
+          This is simple card with plain text. But card could contain its own header, footer, list view, image, and any elements inside.
+        </view>
+      </view>
+      <view class="card-footer">Card footer</view>
+
+    </view>
+
+
+    <view class="card">
+      <view class="card-header">Card header</view>
+      <view class="card-content">
+        <view class="card-content-inner">
+          This is simple card with plain text. But card could contain its own header, footer, list view, image, and any elements inside.
+        </view>
+      </view>
+      <view class="card-footer">
+        <navigator url="" redirect class="link">Like</navigator>
+        <navigator url="" redirect class="link">Read more</navigator>
+      </view>
+
+    </view>
+  </view>
+  <view class="content-block-title">Styled Cards</view>
+
+  <view class="content-block">
+    <view class="card">
+      <!-- media -->
+      <view class="item-content media card-header">
+        <view class="item-media">
+          <image class="thumb-sm rounded-circle" src="http://lorempixel.com/160/160/people/1" mode="widthFix" />
+        </view>
+        <view class="item-inner item-link">
+          <view class="item-row">
+            <view class="item-title">Yellow Submarine</view>
+            <view class="item-after">$15</view>
+          </view>
+          <view class="item-subtitle">Beatles</view>
+        </view>
+      </view>
+
+      <view class="card-header-pic">
+        <image src="http://lorempixel.com/1000/600/people/6/" mode="aspectFill" />
+      </view>
+      <view class="card-content">
+        <view class="card-content-inner">
+          This is simple card with plain text. But card could contain its own header, footer, list view, image, and any elements inside.
+        </view>
+      </view>
+      <view class="card-footer">
+        <navigator url="" redirect class="link">Like</navigator>
+        <navigator url="" redirect class="link">Read more</navigator>
+      </view>
+
+    </view>
+
+  </view>
+  <view class="content-block-title">Cards With List View</view>
+
+  <view class="content-block">
+    <view class="card">
+      <view class="list-block">
+
+        <view class="item-content">
+          <view class="item-media">
+            <image class="icon" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
+          </view>
+          <view class="item-inner item-link">
+            <view class="item-title">title</view>
+            <view class="item-after">after</view>
+          </view>
+        </view>
+
+        <view class="item-content">
+          <view class="item-media">
+            <image class="icon" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
+          </view>
+          <view class="item-inner item-link">
+            <view class="item-title">title</view>
+            <view class="item-after">after</view>
+          </view>
+        </view>
+
+        <view class="item-content">
+          <view class="item-media">
+            <image class="icon" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
+          </view>
+          <view class="item-inner item-link">
+            <view class="item-title">title</view>
+            <view class="item-after">after</view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+
+
+    <view class="card">
+
+      <view class="card-header">Card header</view>
+
+      <view class="list-block">
+
+        <view class="item-content media">
+          <view class="item-media">
+            <image class="thumb-sm rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
+          </view>
+          <view class="item-inner item-link">
+            <view class="item-row">
+              <view class="item-title">title</view>
+              <view class="item-after">after</view>
+            </view>
+            <view class="item-subtitle">item-subtitle</view>
+          </view>
+        </view>
+
+        <view class="item-content media">
+          <view class="item-media">
+            <image class="thumb-sm rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
+          </view>
+          <view class="item-inner item-link">
+            <view class="item-row">
+              <view class="item-title">title</view>
+              <view class="item-after">after</view>
+            </view>
+            <view class="item-subtitle">item-subtitle</view>
+          </view>
+        </view>
+
+        <view class="item-content media">
+          <view class="item-media">
+            <image class="thumb-sm rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
+          </view>
+          <view class="item-inner item-link">
+            <view class="item-row">
+              <view class="item-title">title</view>
+              <view class="item-after">after</view>
+            </view>
+            <view class="item-subtitle">item-subtitle</view>
+          </view>
+        </view>
+
+      </view>
+      <view class="card-footer">
+        <text>January 20, 2015</text>
+        <text>5 comments</text>
+      </view>
+    </view>
+
+  </view>
+</view>

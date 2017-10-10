@@ -1,0 +1,25 @@
+<template name="listblock">
+	<view class="list-block">
+		<block wx:for="{{items}}">
+			<navigator class="item-content" url="{{item.url}}">
+
+				<!--为空时不显示图标  -->
+				<block wx:if="{{item.icon == ''}}">
+				</block>
+				<block wx:else>
+					<view class="item-media" >
+						<image class="icon" src="{{item.icon}}"></image>
+					</view>
+				</block>
+
+				<view class="item-inner item-link">
+					<view class="item-row">
+
+						<view class="item-title">{{item.title}}</view>
+						<text class="{{item.aftertype}}">{{item.after}}</text>
+					</view>
+				</view>
+			</navigator>
+		</block>
+	</view>
+</template>

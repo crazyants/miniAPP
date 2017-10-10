@@ -1,0 +1,14 @@
+<!--pages/biz/index/index.wxml-->
+<import src="/pages/template/list-components/list-components.wxml" />
+
+<view class="container pb-3">
+	<view class="content-block-title">Page</view>
+	<template is="listblock" data='{{...ListPage}}' />
+
+	<view class="content-block-title">Cards and coupons</view>
+	<template is="listblock" data='{{...ListCAC}}' />
+
+	<view class="content-block-title">Media list</view>
+	<template is="listblock" data='{{...ListMedia}}' />
+
+</view>

@@ -1,0 +1,94 @@
+<!--pages/biz/wx-media-list/wx-media-list.wxml-->
+<view class="container">
+  
+  
+  <view class="content-block-title">Wechat</view>
+  
+  <!-- media list -->
+  <view class="list-block">
+
+    <view class="item-content media">
+      <view class="item-media">
+        <image class="thumb-sm rounded-circle" src="http://lorempixel.com/88/88/fashion/1" mode="aspectFill" />
+      </view>
+      <view class="item-inner">
+        <view class="item-title">用户名称</view>
+        <view class="item-subtitle">
+          【大溪地6晚8日自助游】2晚茉莉雅，3晚波拉波拉，1晚主岛，京沪港均可出发
+        </view>
+        <view class="grid grid-pic">
+          <view class="col-4">
+            <image src="http://mpic.tiankong.com/2ca/99b/2ca99b54135db4ec81e0031d9e74b78e/640.jpg" mode="aspectFill" />
+          </view>
+          <view class="col-4">
+            <image src="http://mpic.tiankong.com/74e/a66/74ea665b4e41274afe09a1ae4b2ce510/640.jpg" mode="aspectFill" />
+          </view>
+          <view class="col-4">
+            <image src="http://mpic.tiankong.com/cb5/795/cb5795453c77a5b176f548c46714999d/640.jpg" mode="aspectFill" />
+          </view>
+          <view class="col-4">
+            <image src="http://mpic.tiankong.com/e5d/828/e5d82876c5cc6560b4ec88f1b65e9ae8/640.jpg" mode="aspectFill" />
+          </view>
+          <view class="col-4">
+            <image src="http://mpic.tiankong.com/ed3/822/ed38225b136366d98405fca57459b915/640.jpg" mode="aspectFill" />
+          </view>
+          <view class="col-4">
+            <image src="http://mpic.tiankong.com/35f/928/35f9287ef6d94a92634ce8333bd4e01f/640.jpg" mode="aspectFill" />
+          </view>
+        </view>
+        <view class="">
+          <text class="desc small">2015-05-08</text>
+          <view class="float-right"><icon type="warn" size="20" color="" /></view>
+      </view>
+      </view>
+    </view>
+    
+    <view class="item-content media">
+      <view class="item-media">
+        <image class="icon rounded-circle" src="http://lorempixel.com/88/88/fashion/1" mode="aspectFill" />
+      </view>
+      <view class="item-inner">
+        <view class="item-title">用户名称</view>
+        <view class="item-subtitle">免签美属海岛，香港包机直飞，自选酒店，自选当地游行程，行程DIY，随心搭配</view>
+        <view class="grid grid-pic">
+          <view class="col-6">
+            <image src="http://mpic.tiankong.com/33f/7cf/33f7cf7d8e555cbae47c2c228e120468/640.jpg" mode="aspectFill" />
+          </view>
+          <view class="col-6">
+            <image src="http://mpic.tiankong.com/d2c/b93/d2cb938599e64be2de0a7581a775c2af/640.jpg" mode="aspectFill" />
+          </view>
+          <view class="col-6">
+            <image src="http://mpic.tiankong.com/cf5/7cf/cf57cf73142c00ec5b37dbb695aa38fb/640.jpg" mode="aspectFill" />
+          </view>
+          <view class="col-6">
+            <image src="http://mpic.tiankong.com/26e/51b/26e51b787f18b6588645053db7a7f6ef/640.jpg" mode="aspectFill" />
+          </view>
+        </view>
+        <view class="">
+          <text class="desc small">2015-05-08</text>
+          <view class="float-right"><icon type="warn" size="20" color="" /></view>
+      </view>
+      </view>
+    </view>
+
+    <view class="item-content media">
+      <view class="item-media">
+        <image class="icon rounded-circle" src="http://lorempixel.com/88/88/fashion/1" mode="aspectFill" />
+      </view>
+      <view class="item-inner">
+        <view class="item-title">用户名称</view>
+        <view class="item-subtitle">【马尔代夫神仙珊瑚岛-迪拜7晚8日自助游】双国免签,行程定制,按摩泳池,高私密,私人码头,3晚迪拜</view>
+        <view class="grid grid-pic">
+          <view class="col-12">
+            <image src="http://mpic.tiankong.com/b85/a2b/b85a2b0736057cd3cd06c2f0bc471160/640.jpg@300h" mode="aspectFill" />
+          </view>
+        </view>
+        <view class="">
+          <text class="desc small">2015-05-08</text>
+          <view class="float-right"><icon type="warn" size="20" color="" /></view>
+      </view>
+      </view>
+    </view>
+
+  </view>
+</view>

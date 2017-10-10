@@ -1,0 +1,59 @@
+<!--pages/component/icons/icons.wxml-->
+<view class="container">
+
+  <view class="page-title">Icons</view>
+
+  <view class="content-block-title">Icon</view>
+  <view class="content-block">
+    <icon type="success" aria-label="success" />
+    <icon type="info" aria-label="info" />
+    <icon type="warn" aria-label="warn" />
+    <icon type="waiting" aria-label="waiting" />
+    <icon type="clear" aria-label="clear" />
+    <icon type="success_no_circle" aria-label="success_no_circle" />
+    <icon type="download" aria-label="download" />
+    <icon type="cancel" aria-label="cancel" />
+    <icon type="search" aria-label="search" />
+  </view>
+
+  <view class="content-block-title">Icon size</view>
+  <view class="content-block">
+    <icon type="success" aria-label="success" size="16" />
+    <icon type="success" aria-label="success" size="24" />
+    <icon type="success" aria-label="success" size="48" />
+    <icon type="success" aria-label="success" size="64" />
+    <icon type="success" aria-label="success" size="96" />
+  </view>
+
+  <view class="content-block-title">CSS icon white</view>
+  <view class="content-block">
+    <view class='icon-md icon-circle'>
+      <text class="icon icon-back"></text>
+    </view>
+    <view class='icon-md icon-circle'>
+    <text class="icon icon-forward"></text>
+    </view>
+    <view class='icon-md icon-circle'>
+    <text class="icon icon-prev"></text>
+    </view>
+    <view class='icon-md icon-circle'>
+    <text class="icon icon-next"></text>
+    </view>
+    <view class='icon-md icon-circle'>
+    <text class="icon icon-bars"></text>
+    </view>
+    <view class='icon-md icon-circle'>
+    <text class="icon icon-camera"></text>
+    </view>
+    <view class='icon-md icon-circle'>
+    <text class="icon icon-plus"></text>
+    </view>
+    <view class='icon-md icon-circle'>
+    <text class="icon icon-close"></text>
+    </view>
+    <view class='icon-md icon-circle'>
+    <text class="icon icon-search"></text>
+    </view>
+  </view>
+
+</view>

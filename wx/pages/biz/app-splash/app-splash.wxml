@@ -1,0 +1,10 @@
+<!--pages/biz/app-splash/app-splash.wxml-->
+<view class="container splash-container">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{items}}">
+      <swiper-item>
+        <image src="{{item}}" mode="aspectFill" class="splash-img"/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

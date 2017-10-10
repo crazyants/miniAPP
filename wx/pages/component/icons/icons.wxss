@@ -1,0 +1,14 @@
+/* pages/component/icons/icons.wxss */
+icon {
+    color: rgba(0, 0, 0, .54);
+    margin-right: 16px;
+}
+.icon-circle {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    background-color: #00bbb5;
+    border-radius: 50%;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}

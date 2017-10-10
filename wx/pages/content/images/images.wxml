@@ -1,0 +1,22 @@
+<!--pages/content/images/images.wxml-->
+<view class="container">
+
+  <view class="page-title">Images</view>
+
+  <view class="content-block">
+
+	  <view class="content-block-title">scaleToFill</view>
+    <image mode="scaleToFill" src="https://img10.360buyimg.com/N12/s735x363_jfs/t10474/295/66131578/518802/3ac2d650/59c4e700Nf4662021.png"></image>
+  
+	  <view class="content-block-title">aspectFit</view>
+    <image mode="aspectFit" src="https://img10.360buyimg.com/N12/s735x363_jfs/t10474/295/66131578/518802/3ac2d650/59c4e700Nf4662021.png"></image>
+  
+	  <view class="content-block-title">aspectFill</view>
+    <image mode="aspectFill" src="https://img10.360buyimg.com/N12/s735x363_jfs/t10474/295/66131578/518802/3ac2d650/59c4e700Nf4662021.png"></image>
+  
+	  <view class="content-block-title">widthFix</view>
+    <image mode="widthFix" src="https://img10.360buyimg.com/N12/s735x363_jfs/t10474/295/66131578/518802/3ac2d650/59c4e700Nf4662021.png"></image>
+  
+  </view>
+
+</view>

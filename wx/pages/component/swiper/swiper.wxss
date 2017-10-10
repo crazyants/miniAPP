@@ -1,0 +1,7 @@
+/* pages/component/swiper/swiper.wxss */
+.swiper swiper{
+    height: 56vw;
+}
+.swiper-sm swiper{
+    height: 25vw;
+}
