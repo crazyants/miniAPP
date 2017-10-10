@@ -1,1 +1,10 @@
 /* pages/utilities/spacing/spacing.wxss */
+.mark {
+    min-width: 24px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 4px;
+}
+.li {
+    margin: 8px 0;
+}

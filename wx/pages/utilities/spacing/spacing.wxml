@@ -1,2 +1,41 @@
 <!--pages/utilities/spacing/spacing.wxml-->
-<text>pages/utilities/spacing/spacing.wxml</text>
+<view class="container">
+
+  <view class="page-title">Spacing</view>
+
+  <view class="content-block-title">property</view>
+  <view class="content-block">
+    <view class="ul">
+      <view class="li"><text class="mark">m</text> - set <text class="mark">margin</text></view>
+      <view class="li"><text class="mark">p</text> - set <text class="mark">padding</text></view>
+    </view>
+  </view>
+  
+  <view class="content-block-title">sides</view>
+  <view class="content-block">
+    <view class="ul">
+      <view class="li"><text class="mark">t</text> - set <text class="mark">margin-top</text> or <text class="mark">margin-top</text></view>
+      <view class="li"><text class="mark">b</text> - set <text class="mark">margin-bottom</text> or <text class="mark">margin-bottom</text></view>
+      <view class="li"><text class="mark">l</text> - set <text class="mark">margin-left</text> or <text class="mark">margin-left</text></view>
+      <view class="li"><text class="mark">r</text> - set <text class="mark">margin-right</text> or <text class="mark">margin-right</text></view>
+      <view class="li"><text class="mark">x</text> - set <text class="mark">margin-left</text> and <text class="mark">margin-right</text></view>
+      <view class="li"><text class="mark">y</text> - set <text class="mark">margin-top</text> and <text class="mark">margin-bottom</text></view>
+    </view>
+  </view>
+
+  <view class="content-block-title">size</view>
+  <view class="content-block">
+    <view class="ul">
+      <view class="li"><text class="mark">1</text> - set <text class="mark">4px</text></view>
+      <view class="li"><text class="mark">2</text> - set <text class="mark">8px</text></view>
+      <view class="li"><text class="mark">3</text> - set <text class="mark">16px</text></view>
+      <view class="li"><text class="mark">4</text> - set <text class="mark">24px</text></view>
+      <view class="li"><text class="mark">5</text> - set <text class="mark">48px</text></view>
+    </view>
+  </view>
+
+  <view class="content-block-title">examples</view>
+  <view class="content-block">
+    <text class="mark">ml-1</text> = <text class="mark">margin-left:4px;</text>
+  </view>
+</view>

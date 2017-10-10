@@ -1,2 +1,22 @@
 <!--pages/utilities/colors/colors.wxml-->
-<text>pages/utilities/colors/colors.wxml</text>
+<view class="container">
+  <view class="content-block">
+
+	  <view class="title">text</view>
+
+    <view class="text-primary py-2">text-primary</view>
+    <view class="text-success py-2">text-success</view>
+    <view class="text-warning py-2">text-warning</view>
+    <view class="text-danger py-2">text-danger</view>
+    <view class="text-white py-2">text-white</view>
+
+	  <view class="title">bg</view>
+
+    <view class="bg-primary p-2">bg-primary</view>
+    <view class="bg-success p-2">bg-success</view>
+    <view class="bg-warning p-2">bg-warning</view>
+    <view class="bg-danger p-2">bg-danger</view>
+    <view class="bg-white p-2">bg-white</view>
+
+  </view>
+</view>
