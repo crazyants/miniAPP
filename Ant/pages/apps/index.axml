@@ -4,8 +4,9 @@
     <view class="headline">Monopoly Demos</view>
 
     <view class="applist">
+      <view>be patient</view>
       
-      <navigator class="item">
+      <!-- <navigator class="item">
         <image class="app-icon" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
         <text class="app-name">app name</text>
       </navigator>
@@ -32,7 +33,7 @@
       <navigator class="item">
         <image class="app-icon" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
         <text class="app-name">app name</text>
-      </navigator>
+      </navigator> -->
 
     </view>
 
