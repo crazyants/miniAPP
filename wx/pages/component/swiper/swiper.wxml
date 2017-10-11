@@ -17,9 +17,7 @@
     <swiper indicator-dots="true" autoplay="true" circular="true">
       <block wx:for="{{items2}}">
         <swiper-item>
-          <view>
             <image src="{{item}}" mode="aspectFill" />
-          </view>
         </swiper-item>
       </block>
     </swiper>

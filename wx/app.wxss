@@ -27,7 +27,9 @@ image {
   width: 100%;
   vertical-align: middle;
 }
-
+swiper image {
+  max-height: 100%;
+}
 icon {
   vertical-align: middle;
 }

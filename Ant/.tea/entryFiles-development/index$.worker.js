@@ -1,8 +1,8 @@
 
 
 require('../../app');
-require('../../pages/biz/index/index');
 require('../../pages/index/index');
+require('../../pages/biz/index/index');
 require('../../pages/apps/index');
 require('../../pages/biz/my/my');
 require('../../pages/biz/app-splash/app-splash');
