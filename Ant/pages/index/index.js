@@ -114,7 +114,7 @@ Page({
                     'url': '/pages/component/collapse/collapse',
                 },
                 {
-                    'icon': 'http://material.framework7.cn/dist/img/i-f7-material.png',
+                    'icon': '',
                     'title': 'Dropdowns',
                     'url': '/pages/component/dropdowns/dropdowns',
                 },
