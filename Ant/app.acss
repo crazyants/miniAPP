@@ -531,6 +531,7 @@ button[size="mini"]/* only for wx  */,
 .item-content .item-row {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 /* .list-block .item-title {
@@ -689,7 +690,7 @@ button[size="mini"]/* only for wx  */,
 }
 
 .card-header-pic image {
-  min-height: 40vw;
+  height: 43vw;
 }
 
 .card-header.media {

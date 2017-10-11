@@ -51,7 +51,6 @@
   "tabBar": {
     "borderStyle": "black",
     "backgroundColor": "#fff",
-    
     "list": [
       {
         "pagePath": "pages/index/index",

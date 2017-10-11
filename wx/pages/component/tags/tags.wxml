@@ -1,5 +1,5 @@
 <!--pages/component/tags/tags.wxml-->
-<import src="/util/tag-list/tag-list.axml" />
+<import src="/pages/template/tag-list/tag-list.wxml" />
 
 <view class="container">
 

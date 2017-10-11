@@ -113,18 +113,21 @@ Page({
           'url': '/pages/component/badge/badge',
         },
         {
-          'icon': 'http://material.framework7.cn/dist/img/i-f7-material.png',
+          'icon': '',
           'title': 'Tags',
+          'after': '有bug',
           'url': '/pages/component/tags/tags',
         },
         {
           'icon': '',
           'title': 'Collapse',
+          'after': 'undone',
           'url': '/pages/component/collapse/collapse',
         },
         {
           'icon': '',
           'title': 'Dropdowns',
+          'after': 'undone',
           'url': '/pages/component/dropdowns/dropdowns',
         },
         {

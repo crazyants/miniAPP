@@ -111,11 +111,13 @@ Page({
                 {
                     'icon': '',
                     'title': 'Collapse',
+                    'after': 'undone',
                     'url': '/pages/component/collapse/collapse',
                 },
                 {
                     'icon': '',
                     'title': 'Dropdowns',
+                    'after': 'undone',
                     'url': '/pages/component/dropdowns/dropdowns',
                 },
                 {
