@@ -1,3 +1,4 @@
+<!--pages/component/timeline/timeline.wxml-->
 <view class="container">
 
   <view class="page-title">Timeline</view>
@@ -76,7 +77,7 @@
     <view class="card-content-inner">
       <view class="timeline">
         <view class="timeline-item">
-          <view class="timeline-item-date">0104</view>
+          <view class="timeline-item-date">01-04</view>
           <view class="timeline-item-content">
             <view class="timeline-item-inner">
               Some text goes here
@@ -84,7 +85,10 @@
           </view>
         </view>
         <view class="timeline-item">
-          <view class="timeline-item-date">0104</view>
+          <view class="timeline-item-date">
+          01-04
+          <view class='timeline-item-time'>09:30</view>
+          </view>
           <view class="timeline-item-content">
             <view class="timeline-item-inner">
               Some text goes here
@@ -92,7 +96,7 @@
           </view>
         </view>
         <view class="timeline-item">
-          <view class="timeline-item-date">0104</view>
+          <view class="timeline-item-date">01-04</view>
           <view class="timeline-item-content">
             <view class="timeline-item-inner">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor fugiat ipsam hic porro enim, accusamus perferendis, quas commodi alias quaerat eius nemo deleniti. Odio quasi quos quis iure, aperiam pariatur?
