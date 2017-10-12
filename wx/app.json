@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/component/timeline/timeline",
     "pages/index/index",
     "pages/biz/index/index",
     "pages/apps/index",
+    
     "pages/biz/my/my",
     "pages/biz/app-splash/app-splash",
     "pages/biz/app-list/app-list",
@@ -16,12 +16,15 @@
     "pages/biz/service-msg/service-msg",
     "pages/biz/wx-media-list/wx-media-list",
     "pages/biz/news-list/news-list",
+
     "pages/layout/flex/flex",
     "pages/layout/grid/grid",
+
     "pages/content/typography/typography",
     "pages/content/thumb/thumb",
     "pages/content/images/images",
     "pages/content/article/article",
+
     "pages/component/swiper/swiper",
     "pages/component/tabs/tabs",
     "pages/component/list-block/list-block",
@@ -37,6 +40,7 @@
     "pages/component/badge/badge",
     "pages/component/tags/tags",
     "pages/component/picker-view/picker-view",
+    "pages/component/timeline/timeline",
 
     "pages/utilities/borders/borders",
     "pages/utilities/clearfix/clearfix",
