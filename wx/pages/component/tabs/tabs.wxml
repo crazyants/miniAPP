@@ -1,9 +1,6 @@
 <!--pages/component/tabs/tabs.wxml-->
-<view class="container tab-container">
-
-  <view class="py-5 bg-primary"></view>
-
-  <view class="tabbar flexbox">
+<view class="container swiper-tab-container">
+  <view class="swiper-tabbar flexbox">
     <view class="item {{currentTab==0 ? 'active' : ''}}" data-current="0" bindtap="swichTab">tab1</view>
     <view class="item {{currentTab==1 ? 'active' : ''}}" data-current="1" bindtap="swichTab">tab2</view>
   </view>

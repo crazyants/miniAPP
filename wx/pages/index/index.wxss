@@ -1,4 +1,49 @@
 /**index.wxss**/
+
+.testbox {
+  overflow: auto;
+}
+
+.testbox>view {
+  background-color: #ccc;
+  float: left;
+  overflow: hidden;
+  margin-right: 8px;
+}
+
+.testbox .box16r {
+  width: 16rpx;
+  height: 16rpx;
+}
+.testbox .box32r {
+  width: 32rpx;
+  height: 32rpx;
+}
+.testbox .box48r {
+  width: 48rpx;
+  height: 48rpx;
+}
+.testbox .box96r {
+  width: 96rpx;
+  height: 96rpx;
+}
+.testbox .box16 {
+  width: 16px;
+  height: 16px;
+}
+.testbox .box32 {
+  width: 32px;
+  height: 32px;
+}
+.testbox .box48 {
+  width: 48px;
+  height: 48px;
+}
+.testbox .box96 {
+  width: 96px;
+  height: 96px;
+}
+
 .userinfo {
   display: flex;
   flex-direction: column;

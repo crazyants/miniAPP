@@ -6,7 +6,7 @@
   <view class="content-block-title">Simple media</view>
 
   <!-- media -->
-  <view class="item-content media">
+  <navigator class="item-content media">
     <view class="item-media">
       <image class="thumb rounded-circle" src="http://lorempixel.com/160/160/people/1" mode="widthFix" />
     </view>
@@ -20,12 +20,12 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. 
       </view>
     </view>
-  </view>
+  </navigator>
 
   <!-- Simple media -->
   <view class="list-block">
 
-    <view class="item-content media">
+    <navigator class="item-content media">
       <view class="item-media">
         <image class="thumb-sm rounded-circle" src="http://lorempixel.com/160/160/people/1" mode="widthFix" />
       </view>
@@ -39,7 +39,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis tellus ut turpis condimentum, ut dignissim lacus tincidunt. 
         </view>
       </view>
-    </view>
+    </navigator>
     
     <view class="item-content media">
       <view class="item-media">
@@ -78,14 +78,13 @@
     </view>
 
   </view>
-
   
   <view class="content-block-title">Media list</view>
   
   <!-- media list -->
   <view class="list-block">
 
-    <view class="item-content media">
+    <navigator class="item-content media">
       <view class="item-media">
         <image class="thumb" src="https://img11.360buyimg.com/n7/jfs/t5626/43/5310289231/158712/39583f26/595dd34aN68c42a88.jpg" mode="widthFix" />
       </view>
@@ -98,8 +97,8 @@
           <text class="small">34人评价 好评率97%</text>
         </view>
       </view>
-    </view>
-    <view class="item-content media">
+    </navigator>
+    <navigator class="item-content media">
       <view class="item-media">
         <image class="thumb" src="https://img11.360buyimg.com/n7/jfs/t2968/143/2485546147/238650/70df281e/57b12a31N8f4f75a3.jpg" mode="widthFix" />
       </view>
@@ -112,8 +111,8 @@
           <text class="small">50人评价 好评率88%</text>
         </view>
       </view>
-    </view>
-    <view class="item-content media">
+    </navigator>
+    <navigator class="item-content media">
       <view class="item-media">
         <image class="thumb" src="https://img12.360buyimg.com/n1/s180x180_jfs/t10204/164/341721929/195078/18f77436/59cc8c5eN86eb2272.jpg" mode="widthFix" />
       </view>
@@ -126,7 +125,7 @@
           <text class="small">159人评价 好评率85%</text>
         </view>
       </view>
-    </view>
+    </navigator>
 
   </view>
 

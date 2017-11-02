@@ -1,17 +1,16 @@
 <import src="/pages/template/list-components/list-components.wxml" />
 
 <view class="container pb-3">
+  <view class="content-block-title">Layout</view>
+  <template is="listblock" data="{{...ListLayout}}" />
 
-	<view class="content-block-title">Layout</view>
-	<template is="listblock" data="{{...ListLayout}}" />
+  <view class="content-block-title">Content</view>
+  <template is="listblock" data="{{...ListContent}}" />
 
-	<view class="content-block-title">Content</view>
-	<template is="listblock" data="{{...ListContent}}" />
+  <view class="content-block-title">Components</view>
+  <template is="listblock" data="{{...ListComponents}}" />
 
-	<view class="content-block-title">Components</view>
-	<template is="listblock" data="{{...ListComponents}}" />
-
-	<view class="content-block-title">Utilities</view>
-	<template is="listblock" data="{{...ListUtilities}}" />
+  <view class="content-block-title">Utilities</view>
+  <template is="listblock" data="{{...ListUtilities}}" />
 
 </view>

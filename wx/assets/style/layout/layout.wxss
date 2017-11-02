@@ -1,0 +1,210 @@
+/*------------------------------
+* layout
+------------------------------*/
+@import "spacing.wxss";
+
+/* === size === */
+
+.w-24 {
+  width: 24%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-75 {
+  height: 75%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+/* viewport size */
+
+.vw-25 {
+  width: 25vw;
+}
+
+.vw-50 {
+  width: 50vw;
+}
+
+.vw-75 {
+  width: 75vw;
+}
+
+.vw-100 {
+  width: 100vw;
+}
+
+.vh-25 {
+  height: 25vh;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+/* === flex === */
+
+.flexbox, .grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexbox>.item, .grid .col {
+  flex: 1;
+  position: relative;
+  width: 100%;
+}
+
+.flex-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* === grid === */
+
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.3333%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 16.6666%;
+}
+
+.col-1 {
+  width: 8.3333%;
+}
+
+/* .gutter */
+
+.gutter {
+  justify-content: space-between;
+}
+
+.grid.gutter .col-6, .grid.gutter .col-4, .grid.gutter .col-3,
+.grid.gutter .col-2 {
+  margin: 2px 0;
+}
+
+.grid.gutter .col-6 {
+  width: calc((100% - 8rpx*1)/ 2);
+}
+
+.grid.gutter .col-4 {
+  width: calc((100% - 8rpx*2)/ 3);
+}
+
+.grid.gutter .col-3 {
+  width: calc((100% - 8rpx*3)/ 4);
+}
+
+.grid.gutter .col-2 {
+  width: calc((100% - 8rpx*5)/ 6);
+}
+
+/* .grid-pic */
+
+.grid-pic>view {
+  padding: 0 8rpx 8rpx 0;
+}
+
+.grid-pic .col-4 image {
+  height: 20vw;
+}
+
+.grid-pic .col-6 image {
+  height: 32vw;
+}
+
+.grid-pic .col-12 image {
+  height: 48vw;
+}
+
+/* === container === */
+
+.content-block {
+  padding: 32rpx;
+  box-sizing: border-box;
+}
+
+.content-block-title {
+  position: sticky;
+  top: 0;
+  z-index: 15;
+  overflow: hidden;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 32rpx;
+  line-height: 64rpx;
+  color: rgba(0, 0, 0, 0.54);
+  background-color: #f5f5f9;
+}
+
+/* === footer === */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  min-height: 96rpx;
+  background-color: #fff;
+  z-index: 99;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.footer.flexbox {
+  align-items: center;
+}
+
+.footer button {
+  border-radius: 0;
+  border: none;
+}

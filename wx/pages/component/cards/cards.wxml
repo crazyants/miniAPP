@@ -12,7 +12,7 @@
     </view>
 
     <view class="card">
-      <view class="card-header">Card header</view>
+      <view class="card-header"><view class='item-title'>Card header</view></view>
       <view class="card-content">
         <view class="card-content-inner">
           This is simple card with plain text. But card could contain its own header, footer, list view, image, and any elements inside.
@@ -46,13 +46,13 @@
         <view class="item-media">
           <image class="thumb-sm rounded-circle" src="http://lorempixel.com/160/160/people/1" mode="widthFix" />
         </view>
-        <view class="item-inner item-link">
+        <navigator class="item-inner item-link">
           <view class="item-row">
             <view class="item-title">Yellow Submarine</view>
             <view class="item-after">$15</view>
           </view>
           <view class="item-subtitle">Beatles</view>
-        </view>
+        </navigator>
       </view>
 
       <view class="card-header-pic">
@@ -81,30 +81,30 @@
           <view class="item-media">
             <image class="icon" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
           </view>
-          <view class="item-inner item-link">
+          <navigator class="item-inner item-link">
             <view class="item-title">title</view>
             <view class="item-after">after</view>
-          </view>
+          </navigator>
         </view>
 
         <view class="item-content">
           <view class="item-media">
             <image class="icon" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
           </view>
-          <view class="item-inner item-link">
+          <navigator class="item-inner item-link">
             <view class="item-title">title</view>
             <view class="item-after">after</view>
-          </view>
+          </navigator>
         </view>
 
         <view class="item-content">
           <view class="item-media">
             <image class="icon" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
           </view>
-          <view class="item-inner item-link">
+          <navigator class="item-inner item-link">
             <view class="item-title">title</view>
             <view class="item-after">after</view>
-          </view>
+          </navigator>
         </view>
 
       </view>
@@ -121,39 +121,39 @@
           <view class="item-media">
             <image class="thumb-sm rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
           </view>
-          <view class="item-inner item-link">
+          <navigator class="item-inner item-link">
             <view class="item-row">
               <view class="item-title">title</view>
               <view class="item-after">after</view>
             </view>
             <view class="item-subtitle">item-subtitle</view>
-          </view>
+          </navigator>
         </view>
 
         <view class="item-content media">
           <view class="item-media">
             <image class="thumb-sm rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
           </view>
-          <view class="item-inner item-link">
+          <navigator class="item-inner item-link">
             <view class="item-row">
               <view class="item-title">title</view>
               <view class="item-after">after</view>
             </view>
             <view class="item-subtitle">item-subtitle</view>
-          </view>
+          </navigator>
         </view>
 
         <view class="item-content media">
           <view class="item-media">
             <image class="thumb-sm rounded-circle" src="http://material.framework7.cn/dist/img/i-f7-material.png" mode="widthFix" />
           </view>
-          <view class="item-inner item-link">
+          <navigator class="item-inner item-link">
             <view class="item-row">
               <view class="item-title">title</view>
               <view class="item-after">after</view>
             </view>
             <view class="item-subtitle">item-subtitle</view>
-          </view>
+          </navigator>
         </view>
 
       </view>

@@ -1,0 +1,114 @@
+/*------------------------------
+* content
+------------------------------*/
+
+/* === thumb === */
+
+.thumb {
+  width: 176rpx;
+  max-height: 176rpx;
+  overflow: hidden;
+}
+
+.thumb-sm {
+  width: 88rpx;
+  max-height: 88rpx;
+  overflow: hidden;
+}
+
+.thumb-lg {
+  width: 264rpx;
+  max-height: 264rpx;
+  overflow: hidden;
+}
+
+view.thumb-lg image {
+  width: 100%;
+}
+
+/* === typography === */
+
+page {
+  font-size: 28rpx;
+}
+
+.display-1, .display-2, .display-3, .display-4 {
+  /* line-height: 1.2em; */
+  font-weight: lighter;
+}
+
+.display-1 {
+  font-size: 96rpx;
+}
+
+.display-2 {
+  font-size: 80rpx;
+}
+
+.display-3 {
+  font-size: 64rpx;
+}
+
+.display-4 {
+  font-size: 48rpx;
+}
+
+.headline {
+  font-size: 40rpx;
+}
+
+.title {
+  font-size: 36rpx;
+}
+
+.item-title {
+  font-size: 34rpx;
+}
+
+.caption {
+  font-size: 28rpx;
+}
+
+button {
+  font-size: 36rpx;
+}
+
+.small {
+  font-size: smaller;
+}
+
+.del {
+  text-decoration: line-through;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.mark {
+  padding: 0.2em;
+  background-color: #fcf8e3;
+}
+
+/* === article === */
+
+.article .h1 {
+  font-size: 80rpx;
+}
+
+.article .h2 {
+  font-size: 54rpx;
+}
+
+.article .h3 {
+  font-size: 40rpx;
+}
+
+.article .h4 {
+  font-size: 32rpx;
+}
+
+.article .p {
+  margin: 1em 0;
+  opacity: 0.54;
+}

@@ -1,66 +1,67 @@
 <!--pages/layout/grid/grid.wxml-->
 <view class="container pb-5">
+  <view class='content-block'>
+    <view class="content-block-title">average</view>
+    <view class="grid">
+      <view class="col">col</view>
+      <view class="col">col</view>
+      <view class="col">col</view>
+    </view>
+    <view class="grid">
+      <view class="col">col</view>
+      <view class="col">col</view>
+    </view>
 
-  <view class="content-block-title">average</view>
-  <view class="grid">
-    <view class="col">col</view>
-    <view class="col">col</view>
-    <view class="col">col</view>
-  </view>
-  <view class="grid">
-    <view class="col">col</view>
-    <view class="col">col</view>
-  </view>
-  
-  <view class="content-block-title">grid</view>
-  <view class="grid">
-    <view class="col-1">1</view>
-    <view class="col-2">col-2</view>
-    <view class="col-3">col-3</view>
-    <view class="col-6">col-6</view>
+    <view class="content-block-title">grid</view>
+    <view class="grid">
+      <view class="col-1">1</view>
+      <view class="col-2">col-2</view>
+      <view class="col-3">col-3</view>
+      <view class="col-6">col-6</view>
 
-    <view class="col-3">col-3</view>
-    <view class="col-3">col-3</view>
-    <view class="col-3">col-3</view>
-    <view class="col-3">col-3</view>
+      <view class="col-3">col-3</view>
+      <view class="col-3">col-3</view>
+      <view class="col-3">col-3</view>
+      <view class="col-3">col-3</view>
 
-    <view class="col-4">col-4</view>
-    <view class="col-4">col-4</view>
-    <view class="col-4">col-4</view>
+      <view class="col-4">col-4</view>
+      <view class="col-4">col-4</view>
+      <view class="col-4">col-4</view>
 
-    <view class="col-6">col-6</view>
-    <view class="col-6">col-6</view>
-  </view>
-
-  <view class="content-block-title">grid</view>
-  <view class="grid">
-    <view class="col w-50 h-vw50">1</view>
-    <view class="col grid">
-      <view class="col-12">col-12</view>
       <view class="col-6">col-6</view>
       <view class="col-6">col-6</view>
     </view>
-  </view>
 
-  <view class="content-block-title">gutter</view>
-  <view class="grid gutter">
-    <view class="col-6">col-6</view>
-    <view class="col-6">col-6</view>
+    <view class="content-block-title">grid</view>
+    <view class="grid">
+      <view class="col w-50 h-vw50">1</view>
+      <view class="col grid">
+        <view class="col-12">col-12</view>
+        <view class="col-6">col-6</view>
+        <view class="col-6">col-6</view>
+      </view>
+    </view>
 
-    <view class="col-4">col-4</view>
-    <view class="col-4">col-4</view>
-    <view class="col-4">col-4</view>
+    <view class="content-block-title">gutter</view>
+    <view class="grid gutter">
+      <view class="col-6">col-6</view>
+      <view class="col-6">col-6</view>
 
-    <view class="col-3">col-3</view>
-    <view class="col-3">col-3</view>
-    <view class="col-3">col-3</view>
-    <view class="col-3">col-3</view>
-    
-    <view class="col-2">col-2</view>
-    <view class="col-2">col-2</view>
-    <view class="col-2">col-2</view>
-    <view class="col-2">col-2</view>
-    <view class="col-2">col-2</view>
-    <view class="col-2">col-2</view>
+      <view class="col-4">col-4</view>
+      <view class="col-4">col-4</view>
+      <view class="col-4">col-4</view>
+
+      <view class="col-3">col-3</view>
+      <view class="col-3">col-3</view>
+      <view class="col-3">col-3</view>
+      <view class="col-3">col-3</view>
+
+      <view class="col-2">col-2</view>
+      <view class="col-2">col-2</view>
+      <view class="col-2">col-2</view>
+      <view class="col-2">col-2</view>
+      <view class="col-2">col-2</view>
+      <view class="col-2">col-2</view>
+    </view>
   </view>
 </view>

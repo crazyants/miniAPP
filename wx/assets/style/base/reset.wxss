@@ -1,0 +1,50 @@
+/*------------------------------
+* reset
+------------------------------*/
+
+page {
+  line-height: 1.5;
+  background-color: #f5f5f9;
+}
+
+view, label, navigator {
+  box-sizing: border-box;
+}
+
+scroll-view {
+  width: 100%;
+  height: 100%;
+}
+
+checkbox {
+  border-radius: 50%;
+}
+
+textarea {
+  width: 100%;
+  height: 5.2em;
+}
+
+image {
+  max-width: 100%;
+  /* height: auto; */
+  width: 100%;
+  vertical-align: middle;
+}
+
+swiper image {
+  max-height: 100%;
+}
+
+icon {
+  vertical-align: middle;
+}
+
+navigator {
+  transition-duration: 300ms;
+  transform: translate3d(0, 0, 0);
+}
+
+navigator.link {
+  display: inline-block;
+}

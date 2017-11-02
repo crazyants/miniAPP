@@ -1,0 +1,391 @@
+/* === amount-block === */
+
+.amount-block {
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.amount-content {
+  padding: 24px 0;
+}
+
+.amount-title::before, .amount-title::after {
+  content: " ";
+  display: inline-block;
+  width: 2em;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.54);
+  top: -.3em;
+  position: relative;
+}
+
+.amount-title::before {
+  margin-right: 0.5em;
+}
+
+.amount-title::after {
+  margin-left: 0.5em;
+}
+
+.amount-footer {
+  background-color: rgba(255, 255, 255, 0.12);
+  padding: 8px 0;
+}
+
+.amount-footer .item {
+  position: relative;
+}
+
+.amount-footer .item:not(:last-child)::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 25%;
+  width: 1px;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.54);
+}
+
+.bg-white .item:not(:last-child)::after {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+/*------------------------------
+* biz style
+------------------------------*/
+
+/* 两行字... */
+
+.item-title {
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+.list-block .item-title, .media .item-title {
+  max-height: 2.8em;
+}
+
+/* === app-list === */
+
+.app-list .app-item {
+  text-align: center;
+  padding: 8px 0;
+  position: relative;
+}
+
+.app-list .item {
+  padding: 24px 16px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  line-height: 1.2;
+}
+
+.separate-item>view::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 19.1%;
+  right: 0;
+  height: 61.8%;
+  width: 1px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.app-list .app-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* === goods-list === */
+
+.goods-list {
+  overflow: auto;
+}
+
+.goods-list>.item {
+  width: calc(50% - 4px);
+  float: left;
+  background-color: #fff;
+  margin: 2px;
+}
+
+.goods-list>.item .item-media {
+  height: calc(50vw - 4px);
+}
+
+.goods-list>.item .item-media image {
+  width: 100%;
+  height: 100%;
+}
+
+.goods-list>.item .item-inner {
+  padding: 4px;
+  min-height: 80px;
+}
+
+.goods-list>.item .item-title {
+  margin-bottom: 0.5em;
+  height: 2.8em;
+  font-size: 10pt;
+  line-height: 20px;
+}
+
+.goods-list>.item .badges {
+  height: 24px;
+  overflow: hidden;
+}
+
+.goods-list>.item .item-price {
+  line-height: 24px;
+}
+
+/* === cart === */
+
+.cart {
+  background-color: #fff;
+  font-size: 12pt;
+}
+
+.cart-header {
+  padding: 8px;
+  background-color: #eceff1;
+}
+
+.cart-group + .cart-group {
+  margin-top: 16px;
+}
+
+.cart .group-header {
+  position: sticky;
+  top: 0;
+  padding: 12px 8px 12px 16px;
+  background-color: #f5f5f9;
+  z-index: 15;
+}
+
+.cart .group-header checkbox {
+  margin-right: 8px;
+}
+
+.cart .item-content.media .item-inner {
+  align-self: stretch;
+}
+
+.cart .item-title {
+  font-size: 9pt;
+}
+
+.cart .media {
+  margin: 8px 0;
+}
+
+.cart .media-group:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.cart .media-group-caption {
+  padding: 8px;
+  font-size: 9pt;
+}
+
+.cart .media-group-caption .tag {
+  margin-right: 4px;
+}
+
+.cart .media .item-inner {
+  padding-bottom: 24px;
+}
+
+.cart .media .item-price {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* === coupon  === */
+
+/* coupon-wx */
+
+.coupon-bg {
+  background-color: #00bbb5;
+}
+
+.coupon-wx .card-header::after {
+  display: none;
+}
+
+.coupon-wx .coupon-header {
+  width: 100%;
+  margin-top: -96rpx;
+}
+
+.coupon-wx .coupon-split {
+  position: relative;
+  height: 32rpx;
+  border-top: 1px dashed rgba(0, 0, 0, 0.12);
+  margin-top: -1px;
+  z-index: 99;
+}
+
+.coupon-wx .coupon-split::before, .coupon-wx .coupon-split::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: -8px;
+  width: 32rpx;
+  height: 32rpx;
+  background-color: #00bbb5;
+  border-radius: 50%;
+  z-index: 15;
+}
+
+.coupon-wx .coupon-split::before {
+  left: -8px;
+}
+
+.coupon-wx .coupon-split::after {
+  right: -8px;
+  left: auto;
+}
+
+.coupon-wx .coupon-header image {
+  width: 160rpx;
+  height: 160rpx;
+}
+
+/* === card msg === */
+
+.card.msg .card-content .hd {
+  line-height: 1.2;
+}
+
+.card.msg .card-content .hd .desc {
+  margin-top: 16px;
+}
+
+.card.msg .card-content .bd {
+  padding: 16px 0;
+}
+
+/* === vip-card === */
+
+.vip-card {
+  border-radius: 8px;
+  overflow: hidden;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.54);
+}
+
+.vip-card .card-content {
+  height: 180px;
+  background-size: cover;
+  padding-top: 8px;
+}
+
+.vip-card image {
+  border: 2px solid #fff;
+}
+
+.vip-card .item-title {
+  font-size: 16pt;
+}
+
+/* === splash === */
+
+.splash-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ccc;
+}
+
+.splash-container swiper {
+  /* only for wx  */
+  height: 100vh;
+}
+
+.splash-img {
+  height: 100vh;
+}
+
+/* === news list === */
+
+.news-list .card-header-sm .item-media {
+  margin-right: 8px;
+}
+
+.news-list {
+  padding: 16px 0;
+}
+
+.news-list .card+.card {
+  margin-top: 8px;
+}
+
+.news-list .card-header-sm {
+  border: none;
+  line-height: 24px;
+}
+
+.news-list .card-content-inner {
+  padding: 8px 16px;
+}
+
+.news-list .item-title {
+  max-height: 4.2em;
+  overflow: hidden;
+}
+
+.news-list .news-item-v>.card-content-inner {
+  display: flex;
+}
+
+.news-list .news-item-h>.card-content-inner .item-media {
+  padding: 8px 0;
+}
+
+.news-list .news-item-h>.card-content-inner .item-media image {
+  height: 43vw;
+}
+
+.news-list .news-item-v>.card-content-inner .item-title {
+  flex: 1;
+  padding-right: 16px;
+  -webkit-line-clamp: 3;
+}
+
+.news-list .news-item-v>.card-content-inner .item-media {
+  width: 34vw;
+}
+
+.news-list .news-item-v>.card-content-inner .item-media image {
+  height: 25vw;
+}
+
+.news-list .news-item-h>.card-content-inner .item-media+.caption {
+  margin-bottom: 8px;
+}
+
+.news-list .item-footer {
+  font-size: 9pt;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.news-list .news-item-v .item-footer {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  right: 16px;
+}
+
+.news-list .news-item-v .item-footer .float-right {
+  background-color: rgba(0, 0, 0, 0.54);
+  color: #fff;
+  padding: 0 6px;
+}
