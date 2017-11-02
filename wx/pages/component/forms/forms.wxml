@@ -128,7 +128,7 @@
       <view class="item-content">
         <view class="item-inner">
           <label>switch</label>
-          <switch name="switch" />
+          <switch color='#00bbb5' name="switch" />
         </view>
       </view>
       <view class="item-content">
