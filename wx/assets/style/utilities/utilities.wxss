@@ -1,3 +1,4 @@
+
 /*------------------------------
 * utilities
 ------------------------------*/
@@ -139,66 +140,54 @@
   margin-left: 1em;
 }
 
-/* === colors === */
+/* === amount-block === */
 
-button[type='primary'], .button-hover[type="primary"] .a-button-primary {
-  background-color: #00bbb5 !important;
-  border-color: #00bbb5;
+.amount-block {
+  font-weight: lighter;
+  font-size: 12px;
 }
 
-.link {
-  color: #00bbb5;
+.amount-content {
+  padding: 24px 0;
 }
 
-.caption, .desc {
-  opacity: 0.54;
+.amount-title::before, .amount-title::after {
+  content: " ";
+  display: inline-block;
+  width: 2em;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.54);
+  top: -.3em;
+  position: relative;
 }
 
-/* text */
-
-.text-primary {
-  color: #00bbb5;
+.amount-title::before {
+  margin-right: 0.5em;
 }
 
-.text-success {
-  color: #0c0;
+.amount-title::after {
+  margin-left: 0.5em;
 }
 
-.text-warning {
-  color: #f90;
+.amount-footer {
+  padding: 8px 0;
 }
 
-.text-danger {
-  color: #f30;
+.amount-footer .item {
+  position: relative;
 }
 
-.text-white {
-  color: #fff;
+.amount-footer .item:not(:last-child)::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 25%;
+  width: 1px;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.54);
 }
 
-/* bg */
-
-.bg-primary {
-  background-color: #00bbb5;
-  color: #fff;
-}
-
-.bg-success {
-  background-color: #0c0;
-  color: #fff;
-}
-
-.bg-warning {
-  background-color: #f90;
-  color: #fff;
-}
-
-.bg-danger {
-  background-color: #f30;
-  color: #fff;
-}
-
-.bg-white {
-  background-color: #fff !important;
-  color: rgba(0, 0, 0, 0.87);
+.bg-white .item:not(:last-child)::after {
+  background-color: rgba(0, 0, 0, 0.12);
 }

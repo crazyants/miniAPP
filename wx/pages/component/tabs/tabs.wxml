@@ -1,43 +1,24 @@
 <!--pages/component/tabs/tabs.wxml-->
-<view class="container swiper-tab-container">
-  <view class="swiper-tabbar flexbox">
-    <view class="item {{currentTab==0 ? 'active' : ''}}" data-current="0" bindtap="swichTab">tab1</view>
-    <view class="item {{currentTab==1 ? 'active' : ''}}" data-current="1" bindtap="swichTab">tab2</view>
+<view class="container">
+
+  <view class='list-block'>
+    <navigator class='item-content' url='/pages/component/tabs/weui-tab/weui-tab'>
+      <view class='item-media'>
+        <image class='icon' src='http://material.framework7.cn/dist/img/i-f7-material.png'></image>
+      </view>
+      <view class='item-inner item-link'>
+        <view class='item-title'>WeUI tab</view>
+      </view>
+    </navigator>
+    <navigator class='item-content' url='/pages/component/tabs/swiper-tab/swiper-tab'>
+      <view class='item-media'>
+        <image class='icon' src='http://material.framework7.cn/dist/img/i-f7-material.png'></image>
+      </view>
+      <view class='item-inner item-link'>
+        <view class='item-title'>Swiper tab</view>
+        <view class='item-after'></view>
+      </view>
+    </navigator>
   </view>
 
-  <swiper current="{{currentTab}}" duration="300" bindchange="changeTab">
-      <swiper-item>
-        <scroll-view scroll-y="true">
-          <view class="content-block">
-            <view class="content-block">1</view>
-            <view class="content-block">2</view>
-            <view class="content-block">3</view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block"></view>
-            <view class="content-block">4</view>
-            <view class="content-block">5</view>
-          </view>
-        </scroll-view>
-        
-      </swiper-item>
-      <swiper-item>
-        <view class="content-block">B</view>
-      </swiper-item>
-    </swiper>
-    
 </view>

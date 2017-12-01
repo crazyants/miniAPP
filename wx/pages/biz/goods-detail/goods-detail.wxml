@@ -1,0 +1,36 @@
+<!--pages/biz/goods-detail/goods-detail.wxml-->
+<view class='container pb-5'>
+  <swiper indicator-dots="true" autoplay="true">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='card card-flush'>
+    <view class='content-block'>
+      <view class='title line2'>
+        <text class='badge bg-danger'>活动款</text>华为(HUAWEI)M3 8.4英寸平板电脑(2K高清屏 麒麟950 哈曼卡顿音效 4G/64G WiFi)日晖金 </view>
+      <view class='item-row pt-3'>
+        <view class='display-4 text-danger'>￥55.00</view>
+      </view>
+    </view>
+  </view>
+  <form>
+    <view class='list-block'>
+      <view class="item-content">
+        <view class="item-inner">
+          <label>label</label>
+          <view class="form-control">
+            <view class='tag'>500ml</view>
+            <view class='tag'>1kg</view>
+            <view class='tag'>2.25kg</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </form>
+  <view class='footer'>
+    <button type='primary'>button</button>
+  </view>
+</view>

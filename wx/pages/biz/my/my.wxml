@@ -1,30 +1,30 @@
 <!--pages/biz/my/my.wxml-->
 <view class="container">
 
-	<view class="bg-primary py-2 mb-3">
-		<view class="media item-content">
-			<view class="item-media">
-				<image class="thumb-sm rounded-circle" src="http://img1.imgtn.bdimg.com/it/u=374586366,3854721163&fm=27&gp=0.jpg" mode="widthFix" />
-			</view>
-			<view class="item-inner item-link">
-				<view class="item-row">
-					<view class="item-title">User name</view>
-				</view>
-				<view class="item-subtitle caption">captions</view>
-			</view>
-		</view>
-	</view>
+  <view class="bg-primary py-2 mb-3">
+    <view class="media item-content">
+      <view class="item-media">
+        <image class="thumb-sm rounded-circle" src="http://img1.imgtn.bdimg.com/it/u=374586366,3854721163&fm=27&gp=0.jpg" mode="widthFix" />
+      </view>
+      <view class="item-inner item-link">
+        <view class="item-row">
+          <view class="item-title">User name</view>
+        </view>
+        <view class="item-subtitle caption">captions</view>
+      </view>
+    </view>
+  </view>
 
-	<view class="bg-primary py-3 mb-3 text-center">
-		<image class="thumb rounded-circle" src="http://img3.imgtn.bdimg.com/it/u=4100496797,3181356302&fm=27&gp=0.jpg" mode="widthFix" />
-		<view class="title">User name</view>
-		<view class="caption">captions</view>
-	</view>
-	<view class="amount-block bg-primary">
-		<view class="amount-content text-center">
-			<view class="amount-title">昨日收益(元)</view>
-			<view class="display-2">4.25</view>
-			<view>切换为万元收益</view>
+  <view class="bg-primary py-3 mb-3 text-center">
+    <image class="thumb rounded-circle" src="http://img3.imgtn.bdimg.com/it/u=4100496797,3181356302&fm=27&gp=0.jpg" mode="widthFix" />
+    <view class="title">User name</view>
+    <view class="caption">captions</view>
+  </view>
+  <view class="amount-block bg-primary">
+    <view class="amount-content text-center">
+      <view class="amount-title">昨日收益(元)</view>
+      <view class="display-2">4.25</view>
+      <view>切换为万元收益</view>
     </view>
     <view class="amount-footer flexbox text-center">
       <view class="item">
@@ -40,7 +40,7 @@
         <view class="item-title">低</view>
       </view>
     </view>
-     <view class="amount-footer flexbox text-center bg-white">
+    <view class="amount-footer flexbox text-center bg-white">
       <view class="item">
         <view class="desc">投资期限(月)</view>
         <view class="item-title">3</view>
@@ -54,6 +54,6 @@
         <view class="item-title">低</view>
       </view>
     </view>
-	</view>
+  </view>
 
 </view>

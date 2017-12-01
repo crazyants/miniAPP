@@ -1,4 +1,4 @@
-@import "assets/style/yme.wxss";
+@import "assets/style/dist/yme.wxss";
 
 /*------------------------------
 * styles

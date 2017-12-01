@@ -1,0 +1,43 @@
+<!--pages/component/tabs/tabs.wxml-->
+<view class="container tab-container">
+  <view class="swiper-tabbar flexbox">
+    <view class="item {{currentTab==0 ? 'active' : ''}}" data-current="0" bindtap="swichTab">tab1</view>
+    <view class="item {{currentTab==1 ? 'active' : ''}}" data-current="1" bindtap="swichTab">tab2</view>
+  </view>
+
+  <swiper current="{{currentTab}}" duration="300" bindchange="changeTab">
+      <swiper-item>
+        <scroll-view scroll-y="true">
+          <view class="content-block">
+            <view class="content-block">1</view>
+            <view class="content-block">2</view>
+            <view class="content-block">3</view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block"></view>
+            <view class="content-block">4</view>
+            <view class="content-block">5</view>
+          </view>
+        </scroll-view>
+        
+      </swiper-item>
+      <swiper-item>
+        <view class="content-block">B</view>
+      </swiper-item>
+    </swiper>
+    
+</view>

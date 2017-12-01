@@ -1,0 +1,5 @@
+/* pages/biz/goods-detail/goods-detail.wxss */
+
+swiper, swiper image {
+  height: 100vw;
+}

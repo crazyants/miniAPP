@@ -17,7 +17,7 @@
 * tab
 ------------------------------*/
 
-.swiper-tab-container {
+.container.tab-container {
   width: 100vw;
   height: 100vh;
 }
@@ -63,29 +63,35 @@
   z-index: 9;
 }
 
-/* swiper-tab color */
+/* WeUI tab */
 
-.swiper-tabbar {
-  background-color: #fff;
+.tab-navbar {
+  display: flex;
+  position: relative;
+  top: 0;
 }
 
-.swiper-tabbar::after {
-  background-color: rgba(0, 0, 0, 0.05);
+.navbar-item {
+  flex: 1;
+  text-align: center;
+  line-height: 40px;
+  position: relative;
+  display: block;
 }
 
-.swiper-tabbar .item.active {
-  color: #00bbb5;
-}
-
-.swiper-tabbar .item.active::after {
-  background-color: #00bbb5;
+.tab-navbar__slider {
+  position: absolute;
+  content: " ";
+  bottom: 0;
+  width: 64px;
+  height: 6rpx;
+  transition: transform 0.3s;
 }
 
 /* === Lists === */
 
 .list-block {
   position: relative;
-  background-color: #fff;
 }
 
 .list-block+.list-block, .list-block+.content-block-title {
@@ -126,7 +132,6 @@
   top: auto;
   height: 1px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.05);
   display: block;
 }
 
@@ -168,7 +173,6 @@
 }
 
 .list-group-title {
-  background-color: rgba(0, 0, 0, 0.05);
   padding: 16rpx 32rpx;
   position: sticky;
 }
@@ -232,7 +236,9 @@
   background: #fff;
   position: relative;
   border-radius: 10rpx;
-  box-shadow: 0 2rpx 6rpx rgba(0, 0, 0, 0.12), 0 2rpx 4rpx rgba(0, 0, 0, 0.24);
+  box-shadow: 0 2rpx 6rpx rgba(0, 0, 0, 0.12),
+                0 2rpx 4rpx rgba(0, 0, 0, 0.24),
+                0 2rpx 16rpx rgba(0, 0, 0, 0.05);
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -342,6 +348,8 @@ form textarea {
 
 button {
   padding: 0 32rpx;
+  height: 96rpx;
+  line-height: 96rpx;
 }
 
 button[size="mini"]/* only for wx  */, .a-button-small {
@@ -359,6 +367,54 @@ button[size="mini"]/* only for wx  */, .a-button-small {
   left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+.button {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  height: 96rpx;
+  line-height: 96rpx;
+  border-radius: 5px;
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  color: #000;
+  background-color: #f8f8f8;
+}
+
+.button::after {
+  content: " ";
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.button-sm {
+  height: 64rpx;
+  line-height: 64rpx;
+}
+
+button.rounded-circle, .button.rounded-circle {
+  border-radius: 48rpx;
+}
+
+button.rounded-circle::after, .button.rounded-circle::after {
+  border-radius: 96rpx;
 }
 
 /* === floating-button === */
@@ -407,18 +463,10 @@ button[size="mini"]/* only for wx  */, .a-button-small {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-/* .floating-button colors */
-
-.floating-button {
-  background-color: #00bbb5;
-}
-
 /* badge */
 
 .badge {
   display: inline-block;
-  color: #fff;
-  background: #8e8e93;
   border-radius: 8rpx;
   min-width: 40rpx;
   text-align: center;
@@ -442,36 +490,22 @@ button[size="mini"]/* only for wx  */, .a-button-small {
 
 .tags {
   overflow: auto;
-  background-color: #fff;
   padding-right: 16rpx;
   padding-bottom: 16rpx;
 }
 
 .tags .tag {
-  margin-left: 16rpx;
-  margin-top: 16rpx;
+  margin-right: 16rpx;
   min-width: 128rpx;
 }
 
 .tag {
   display: inline-block;
   border: 1px solid rgba(0, 0, 0, 0.12);
-  padding: 0 32rpx;
+  padding: 0 16rpx;
   text-align: center;
   border-radius: 8rpx;
   box-sizing: border-box;
-}
-
-/* tag colors */
-
-.tag.active {
-  color: #00bbb5;
-  border-color: #00bbb5;
-}
-
-.tag-danger {
-  color: #f30;
-  border-color: #f30;
 }
 
 /* === timeline === */
@@ -579,38 +613,4 @@ button[size="mini"]/* only for wx  */, .a-button-small {
 
 .timeline-progress .timeline-item-content {
   padding-top: 48rpx;
-}
-
-/* timeline colors */
-
-.timeline-item {
-  color: rgba(0, 0, 0, 0.54);
-}
-
-.timeline .timeline-item:first-child .timeline-item-content::after {
-  background-color: #00bbb5;
-}
-
-.timeline .timeline-item:first-child {
-  color: rgba(0, 0, 0, 0.87);
-}
-
-.timeline .timeline-item-content .time {
-  color: rgba(0, 0, 0, 0.54);
-}
-
-.timeline-progress .timeline-item.current::before,
-.timeline-progress .timeline-item.current~.timeline-item::after,
-.timeline-progress .timeline-item.current~.timeline-item::before {
-  background-color: #00bbb5;
-}
-
-.timeline-progress .timeline-item.current .timeline-item-content::after,
-.timeline-progress .timeline-item.current+.timeline-item .timeline-item-content::after {
-  background-color: #00bbb5;
-}
-
-.timeline-progress .timeline-item.current .item-title,
-.timeline-progress .timeline-item.current+.timeline-item .item-title {
-  color: rgba(0, 0, 0, 0.87);
 }

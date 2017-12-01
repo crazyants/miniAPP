@@ -1,73 +1,35 @@
-/* === amount-block === */
-
-.amount-block {
-  font-weight: lighter;
-  font-size: 12px;
-}
-
-.amount-content {
-  padding: 24px 0;
-}
-
-.amount-title::before, .amount-title::after {
-  content: " ";
-  display: inline-block;
-  width: 2em;
-  height: 1px;
-  background-color: rgba(255, 255, 255, 0.54);
-  top: -.3em;
-  position: relative;
-}
-
-.amount-title::before {
-  margin-right: 0.5em;
-}
-
-.amount-title::after {
-  margin-left: 0.5em;
-}
-
-.amount-footer {
-  background-color: rgba(255, 255, 255, 0.12);
-  padding: 8px 0;
-}
-
-.amount-footer .item {
-  position: relative;
-}
-
-.amount-footer .item:not(:last-child)::after {
-  content: " ";
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 25%;
-  width: 1px;
-  height: 50%;
-  background-color: rgba(255, 255, 255, 0.54);
-}
-
-.bg-white .item:not(:last-child)::after {
-  background-color: rgba(0, 0, 0, 0.12);
-}
 
 /*------------------------------
 * biz style
 ------------------------------*/
 
-/* 两行字... */
-
-.item-title {
+.line1, .line2, .line3 {
   position: relative;
   overflow: hidden;
   text-overflow: ellipsis;
-  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   display: -webkit-box;
 }
 
-.list-block .item-title, .media .item-title {
-  max-height: 2.8em;
+/* 1行字... */
+
+.line1 {
+  -webkit-line-clamp: 1;
+  max-height: 1.5em;
+}
+
+/* 两行字... */
+
+.line2 {
+  -webkit-line-clamp: 2;
+  max-height: 3em;
+}
+
+/* 三行字... */
+
+.line3 {
+  -webkit-line-clamp: 3;
+  max-height: 4.5em;
 }
 
 /* === app-list === */
@@ -153,11 +115,6 @@
   font-size: 12pt;
 }
 
-.cart-header {
-  padding: 8px;
-  background-color: #eceff1;
-}
-
 .cart-group + .cart-group {
   margin-top: 16px;
 }
@@ -213,10 +170,6 @@
 
 /* coupon-wx */
 
-.coupon-bg {
-  background-color: #00bbb5;
-}
-
 .coupon-wx .card-header::after {
   display: none;
 }
@@ -241,7 +194,6 @@
   top: -8px;
   width: 32rpx;
   height: 32rpx;
-  background-color: #00bbb5;
   border-radius: 50%;
   z-index: 15;
 }
@@ -302,7 +254,6 @@
 .splash-container {
   height: 100vh;
   width: 100vw;
-  background-color: #ccc;
 }
 
 .splash-container swiper {
@@ -337,11 +288,6 @@
   padding: 8px 16px;
 }
 
-.news-list .item-title {
-  max-height: 4.2em;
-  overflow: hidden;
-}
-
 .news-list .news-item-v>.card-content-inner {
   display: flex;
 }
@@ -357,7 +303,6 @@
 .news-list .news-item-v>.card-content-inner .item-title {
   flex: 1;
   padding-right: 16px;
-  -webkit-line-clamp: 3;
 }
 
 .news-list .news-item-v>.card-content-inner .item-media {

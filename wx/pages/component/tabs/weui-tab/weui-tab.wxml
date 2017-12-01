@@ -1,0 +1,30 @@
+<!--pages/component/tabs/weui-tab/weui-tab.wxml-->
+<view class="container tab-container">
+  <view class="tab-wrapper">
+    <view class="tab-navbar">
+      <block wx:for-items="{{ tabs}}" wx:key="{{ index }}">
+        <view id="{{ index }}" class="navbar-item {{ activeIndex == index ? 'weui-bar__item_on' : '' }}" bindtap="tabClick">
+          <view class="weui-navbar__title">{{ item }}</view>
+        </view>
+      </block>
+      <view class="tab-navbar__slider" style="left: {{ sliderLeft }}px; transform: translateX({{ sliderOffset }}px);"></view>
+    </view>
+    <view class="tab-panel">
+      <view class="tab-content" hidden="{{ activeIndex != 0 }}">
+        <view class='content-block'>
+          tab1
+        </view>
+      </view>
+      <view class="tab-content" hidden="{{ activeIndex != 1 }}">
+        <view class='content-block'>
+          tab2
+        </view>
+      </view>
+      <view class="tab-content" hidden="{{ activeIndex != 2 }}">
+        <view class='content-block'>
+          tab3
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

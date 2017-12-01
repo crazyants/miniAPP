@@ -17,13 +17,14 @@
 
     <view class="content-block-title">Misc</view>
 
-    <button type="default" plain='plain'>plain</button>
+    <button type="primary" plain='plain'>plain</button>
     <button type="default" disabled='disabled'>disabled</button>
     <button type="default" loading='true'>loading</button>
 
     <view class="content-block-title">Size</view>
-    <button type="default" size="mini">mini</button>
-
+    <button type="default" class='rounded-circle'>default size</button>
+    <button type="default" class='button-sm rounded-circle'>small size</button>
+    <button type="default" size="mini" class='rounded-circle'>mini size</button>
 
   </view>
 

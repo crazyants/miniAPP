@@ -29,7 +29,7 @@ view.thumb-lg image {
 /* === typography === */
 
 page {
-  font-size: 28rpx;
+  font-size: 30rpx;
 }
 
 .display-1, .display-2, .display-3, .display-4 {
@@ -62,7 +62,7 @@ page {
 }
 
 .item-title {
-  font-size: 34rpx;
+   font-size: 32rpx; 
 }
 
 .caption {
@@ -70,7 +70,7 @@ page {
 }
 
 button {
-  font-size: 36rpx;
+  font-size: 32rpx;
 }
 
 .small {
